@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="59474264-d130-4bfd-8c20-8174aca6d7f6"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="BVT_Admin_Wenapp">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="50532ae7-e3ea-4561-81ab-8e872d038d1e"
+	name="BVT_Admin_WebappRepository"
+	relativepath="BVT_Admin_WebappRepository.rxrep">
+		<codegen
+		classname="BVT_Admin_WebappRepository"
+		namespace="BVT_Admin_Wenapp">
+		</codegen>
+		<rootfolder
+		id="f0d6247d-de7e-478a-8411-e4e686e2f7f3"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

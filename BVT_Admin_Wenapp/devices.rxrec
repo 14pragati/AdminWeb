@@ -1,0 +1,3855 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0982e74b-cba6-4b35-b235-2c2614f8b18b"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="devices"
+	namespace="BVT_Admin_Wenapp">
+	</codegen>
+	<variables>
+		<var
+		id="9b12fd37-ab2c-4d87-877d-d51fe9748cb0"
+		name="Data_model_path">
+		</var>
+		<var
+		id="f6a327be-7d3c-4dad-9842-654478b78535"
+		name="FW_Path">
+		</var>
+		<var
+		id="0f710e9c-056a-40cd-adc8-ed7bf5b88590"
+		name="new_FW">
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="9791e54f-f249-4732-bacb-e750d21b86dc"
+		sx="30"
+		sy="407"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="65d47055-f174-46a7-ba46-443a3a5331d3"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, litag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="litag"
+				rect="0,377,60,60"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						li
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Devices
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'menu']//li[@title='Devices']
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="True">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="True"
+		reportlevel="Info;20"
+		searchpropertyid="5c6a92a2-1707-4643-878c-957bbe0669a9">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f3388a36-eefb-410b-8538-f159d5b1b5b0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qa.mywater.cloud']/body
+				</path>
+			</info>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="True"
+		searchpropertyid="66edf528-33f7-434e-8fff-a00782f61847">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="fdb27b4d-817c-4c61-8f72-eef3e0b721a3"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Device Type']
+				</path>
+			</info>
+			<matchname>
+				TagName
+			</matchname>
+			<matchvalue>
+				span
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="True"
+		searchpropertyid="e69b1e35-2644-4b28-90a4-f73c380a530e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f122daf8-1b0f-4ac2-b0ab-114d3988ed39"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="divtag"
+				rect="231,258,295,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						no-right-padding  col-md-6
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						col-md-6 no-right-padding
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']/div/div[2]/div[2]/div/div[1]/div/div[2]
+				</path>
+			</info>
+			<matchname>
+				TagName
+			</matchname>
+			<matchvalue>
+				div
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="True"
+		searchpropertyid="aea8bac2-4b8b-423a-8c38-03b623c65090">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cbd1e97b-7b25-4ae6-85a3-b08377f65b2c"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, tabletag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="tabletag"
+				rect="84,312,583,222"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						table
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						table
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						table
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']//table
+				</path>
+			</info>
+			<matchname>
+				TagName
+			</matchname>
+			<matchvalue>
+				table
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="True"
+		searchpropertyid="af53d56c-623d-4abe-bf9c-9fa7f117d705">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="77dc3d18-f97f-42ed-90c2-c5751ec03b24"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="720,326,77,30"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Device Type
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']//div[@innertext=':   ']/span[@innertext='Device Type']
+				</path>
+			</info>
+			<matchname>
+				TagName
+			</matchname>
+			<matchvalue>
+				span
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="True"
+		searchpropertyid="b43eb27f-2c1f-47a1-a2ee-6175c91f2757">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7b945f92-176e-47ae-b2ca-a2c3c132588f"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="labeltag"
+				rect="1315,391,165,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						control-label
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Upload New Data Model Version
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						control-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						fmversion
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']//label[@innertext&gt;'Upload New Data Model Ver']
+				</path>
+			</info>
+			<matchname>
+				TagName
+			</matchname>
+			<matchvalue>
+				label
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="True"
+		searchpropertyid="f342ae3e-df47-43f2-a8ea-72b61ca00e8a">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="86599603-8e11-419e-9db4-fb96f3c782f1"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="720,367,567,102"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						col-md-6
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						col-md-6
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']/div/div[2]/div[2]/div/div[2]/div/div[2]/div/div/div[2]/div[1]/div[1]
+				</path>
+			</info>
+			<matchname>
+				TagName
+			</matchname>
+			<matchvalue>
+				div
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="True"
+		searchpropertyid="b3c6e559-c28b-44de-9908-84d6a4fa92b9">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="35c1e313-7a9a-4884-8a5f-d578918ae283"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="1301,367,539,194"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						firmwareUpload col-md-12
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						col-md-12 firmwareUpload
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']//form/div
+				</path>
+			</info>
+			<matchname>
+				TagName
+			</matchname>
+			<matchvalue>
+				div
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="True"
+		searchpropertyid="b8c6d941-1b56-4f93-b2db-2114cedea4a7">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="20465e33-cfe5-4469-b2c9-32529e06669e"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="734,582,539,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-group
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						form-group
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']/div/div[2]/div[2]/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div[2]/div/div
+				</path>
+			</info>
+			<matchname>
+				TagName
+			</matchname>
+			<matchvalue>
+				div
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="True"
+		searchpropertyid="c0df7ca1-c796-407f-847e-4bbdff95db88">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5fdc7fce-2ca0-4355-be16-e95f14f68462"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="734,640,539,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-group
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						form-group
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']/div/div[2]/div[2]/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div[3]/div[1]/div
+				</path>
+			</info>
+			<matchname>
+				TagName
+			</matchname>
+			<matchvalue>
+				div
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="True"
+		searchpropertyid="a498b8ce-0e75-4cfe-891e-4ba73e639277">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d682ecea-8305-47bc-a9de-ad1e67bfb9e5"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="1725,643,114,15"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						UPLOAD FIRMWARE
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='UPLOAD FIRMWARE']
+				</path>
+			</info>
+			<matchname>
+				TagName
+			</matchname>
+			<matchvalue>
+				span
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="True"
+		searchpropertyid="b8a2fb35-4247-4750-b22d-3465f1dad6ec">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4bf9ae6b-224b-4531-87a0-a2b1908da708"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="734,678,1106,181"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						table-responsive
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						table-responsive
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']/div/div[2]/div[2]/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div[4]/div
+				</path>
+			</info>
+			<matchname>
+				TagName
+			</matchname>
+			<matchvalue>
+				div
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="True"
+		searchpropertyid="90bef127-6f32-4d46-9601-31ebd7912115">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b5b92c6e-97c3-4b2c-8e73-9a0c65e66d33"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="1766,525,48,15"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						UPLOAD
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='UPLOAD']
+				</path>
+			</info>
+			<matchname>
+				TagName
+			</matchname>
+			<matchvalue>
+				span
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="True"
+		searchpropertyid="2617386e-421a-4544-8513-274c906b78e4">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="872dace5-4026-4d8f-a6e4-c9f73a606ca3"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, tdtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="8"
+				prefcap="tdtag"
+				rect="1755,787,84,54"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						text-center pointer
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						pointer text-center
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						td
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']/div/div[2]/div[2]/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div[4]/div/table/tbody/tr/td[9]
+				</path>
+			</info>
+			<matchname>
+				TagName
+			</matchname>
+			<matchvalue>
+				td
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="True"
+		searchpropertyid="662fe8a9-03ea-45cd-858d-8b352321516d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7cf41bf5-1cce-4a6a-82b8-63dec168bc0e"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="divtag"
+				rect="682,298,1223,604"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						col-md-8 col-sm-12
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						col-md-8 col-sm-12
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']/div/div[2]/div[2]/div/div[2]/div/div[2]
+				</path>
+			</info>
+			<matchname>
+				TagName
+			</matchname>
+			<matchvalue>
+				div
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="True"
+		searchpropertyid="09a4443b-00a3-4180-9bce-1be5454a19a7">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2a0434af-da4a-4344-bb5e-fab3ab863a31"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, selecttag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="selecttag"
+				rect="1572,746,104,30"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						dealerType form-control
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						dealerType form-control
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						select
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						ALL
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						firmware_filter
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="placeholder"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']//select[@name='firmware_filter']
+				</path>
+			</info>
+			<matchname>
+				TagName
+			</matchname>
+			<matchvalue>
+				select
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="DoubleClick"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="fffb7e68-2264-4ac1-a6c3-eb7d62d7f216"
+		sx="373"
+		sy="478"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1425c672-4ff6-460d-9d56-cdb40586e081"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, tdtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="tdtag"
+				rect="92,459,563,39"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						APR20
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						td
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']//td[@innertext='APR20']
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="3000ms"
+		enabled="True"
+		optional="True">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="True"
+		reportlevel="Info;20"
+		searchpropertyid="5c6a92a2-1707-4643-878c-957bbe0669a9">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f3388a36-eefb-410b-8538-f159d5b1b5b0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qa.mywater.cloud']/body
+				</path>
+			</info>
+		</loggingrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="0d2dd3ec-afd5-499c-88ed-b298d383f553"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="738a09cd-9c5b-40e9-8551-35e7b06b55a7"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']//img[@alt='download']
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="True">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="216;19"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="dd93a1b0-ddcc-4a7f-a2c3-2812a2005d1c"
+		sx="1519"
+		sy="282"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e070feb0-275d-4aad-9408-b46906ebca26"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="1303,263,495,142"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="accept"
+					type="System.String">
+						.bin, .hex, .json
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						dataModel
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						file
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']//input[@name='dataModel']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="beecfd4c-35c7-4809-9ccd-afe25f058910">
+				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
+tTqKAG4b2ow3tTqKAG4b2ow3tTqKAG4b2ow3tTqKAG4b2ow3tTqKAG4b2ow3tTqKAG4b2ow3tTqK
+AG4b2ow3tTqKAG4b2ow3tTqKAG4b2ow3tTqKAG4b2ow3tTqKAG4b2ow3tTqKAG4b2ow3tTqKAG4b
+2ow3tTqKAG4b2ow3tTqKAG4b2ow3tTqKAG4b2op1FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAm72P5UbvY/lS0UAJu9j+VG72P5UtFACbvY/lRu9j+VLRQAm72P5UbvY/lS0UAJu9j+VG72P5
+UtFACbvY/lRu9j+VLRQAm72P5UbvY/lS0UAJu9j+VG72P5UtFACbvY/lRu9j+VLRQAm72P5UbvY/
+lS0UAJu9j+VG72P5UtFACbvY/lRu9j+VLRQAm72P5UbvY/lS0UAJu9j+VG72P5UtFACbvY/lRu9j
++VLRQAm72P5UbvY/lS0UAJu9j+VG72P5UtFACbvY/lRu9j+VLRQAm72P5UbvY/lS0UAJu9j+VG72
+P5UtFACbvY/lRu9j+VLRQAm72P5UbvY/lS0UAJu9j+VG72P5UtFACbvY/lRu9j+VLRQAm72P5Ubv
+Y/lS0UAJu9j+VG72P5UtFACbvY/lRu9j+VLRQAm72P5UbvY/lS0UAJu9j+VG72P5UtFACbvY/lRu
+9j+VLRQAm72P5UbvY/lS0UAJu9j+VFLRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRSFgrKp6t0pFcMWAz8pwfyz
+/WgB1FNLgSKnOWBP5Y/xp1ABRRUbTKsLykHauc+vFAElFNEisVA53DcD7cf406gAooqJrjazjy3I
+T7zDGBxn1zQBLRR1pAQwyDnnFAC0U2WQRRNIwJCjJx1pvnxl40BJMgyMelAElFFIGBkKdwAf8/lQ
+AtFNZwrIDn5zgfkT/SkMqjfnI2DJ+mKAH0UKcqDgjI6GigAopN3z7cHpnPaloAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAimyrRvgkKTnAyenpUEgBwzoxR5c7SvJG3HT8KuUhUMQSPunIoAphJM
+fu1Zfkk2cYxkjH0pdoCSeVCQhUAqVIyc88d+Pzq5RQBQRDj50zEJMlREQMbf7v1qUIfsDqEYZ3YU
+jnqatUUAVWjkWYqgO0oxU+hOOKjijYIzAcqAdqxFMkHPc8mr1FAFW3jcSgODgZkyfU9v5/nQ7bWu
+F2OS/wB3CEg8AdelWqKAKUit9oBCYYMvPlkkjj+LoB7UpRUhZFhA/eHd+7JGMnBwOvarlFAFRVf+
+z3Uqc/NgBSOM8YFPaEJKhjU8sST6cGrFFAFJI22ERIyP5RDnGMtx379+aQx5EvkRlFKpnKEA8nPH
+fir1FAFOKNh5eB8vm5wIygA2nselSToxlUKpIkG1j6AHP+NWKKAKYjf7WSeDvyD5Zzj/AHs4x7Ue
+SothmPBLZb5N2eT1HUirlFAFPa5T5EKnymAAyO4x9PpQY1YMI4isZZPl2kZOeePpirlFAEUCCMyK
+q7V3fKMcdB0qWiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA5zTtPW7hZy
+GyrYzv2j+Rq6dDh3Ngvtx8p8wZJ9/l4pPD2PJm5OdwyO1a9RGMbLQ661aoqjSkZP9iRYX7/P3v3g
+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
+3/PF/wAx/jR5jf8APF/zH+NPooAZ5jf88X/Mf402EMGlZlK7nyAcdNoH9KlooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooA5/xB/x/J/1zH8zRR4g/wCP5P8ArmP5miuWfxM9zD/w
+ol3w/wD8eL/9dD/IVp1meH/+PF/+uh/kK066IfCjysR/FkFFFFUYBRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAc/wCIP+P5P+uY/maKPEH/
+AB/J/wBcx/M0Vyz+JnuYf+FEu+H/APjxf/rof5CtOszw/wD8eL/9dD/IVp10Q+FHlYj+LIKKKKow
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAIrokWkxBwQjfyrma6a7/AOPO
+b/rm38q5mt6WzOTEboKKtWkMclvcs65KJleelWoLOBhAWi3bomYjJ5IxWjkkYxpuRl0VrpZW7hHa
+AxFlbMZY9u9UbCBJ5yJMlVUsQO9CmncbptW8ytRV6W3ilghlgjMZkfYV3ZqS7s4ElgMS/Iz7H5PX
+P/66OdB7N7mbRWlNb2zLcpHEY2gGQ24nNZtOMrkyi4kUpJYZPQcUUS/e/CivMrfGz6vBf7vD0N3w
+/wD8eL/9dD/IVp1meH/+PF/+uh/kK061h8KPNxH8WQUUUVRgFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUARXf/AB5zf9c2/lXM1010CbSYAZJRv5VzNb0tmcmI3RYs7hIfMSVW
+Mci4O3qKsrqESSKEWQRpGUXpnJx/hWdRWjimYqbWxatLvy7gyXDSONpXrk/rT4bi1t5Q0KzMCCrh
+8dPbFUqKHFAptGil7bRGFESXy4yW+bGSaQagjx4liCkSBx5Y9+c81n0UciH7SRoTXtuVnMKyb5uD
+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
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigCOaLzkC+ZJHg5yhwao/Z
+f+Jj5f2if/Vbt2/5uvTPpWlSbV379o3YxnHOKpSsTKKYyGLyUK+ZJJk5y5yaqTQXAa4jjjVknOd2
+7G38Kv0Uk7A43ViiLFXuWM0e5AihTn060rLNDeO8VvvQoFGGC4xV2inzMXIuhSdLhZWlSEN5qAFd
+4G0/1pi2c4eFQwVYo8biMgk9eK0KKOYORGasFzEkAEW8wu2PmAyO1WbWKRVmeRQrStnaDnFWaKHK
+41FIpWdmIbXJj2zlSDzUQsGkEKzJwsRUnPRq0qKOd7i5FZIoR20h+yh4gFjDK4yMdMfrUgtT5s42
+ARvGFX8qt0UczGopGQunS+TBlfm3nzOR0/yKlks7mRZ33BWdtwTAJOOnOeK0qKfOyVTiY9/Z3Nxc
+eYkXBUZ+YdcfWitiimqrSsTKhGTuwooorM2CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAopM+xoz7GgBaKTPsaM+xoAWikz7
+GjPsaAFopM+xoz7GgBaKTPsaM+xoAWikz7GjPsaAFopM+xoz7GgBaKTPsaM+xoAWikz7GjPsaAFo
+pM+xoz7GgBaKTPsaM+xoAWikz7GjPsaAFopM+xoz7GgBaKTPsaM+xoAWikz7GjPsaAFopM+xoz7G
+gBaKTPsaM+xoAWikz7GjPsaAFopM+xoz7GgBaKTPsaM+xoAWikz7GjPsaAFopM+xoz7GgBaKTPsa
+M+xoAWikz7GjPsaAFopM+xoz7GgBaKTPsaM+xoAWikz7GjPsaAFopM+xoz7GgBaKTPsaM+xoAWik
+z7GjPsaAFopM+xoz7GgBaKTPsaKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKrX7FLNyGZeRypweoqr5rosrW8krR7B80meGzjjNAGnRVN0ltYpZEmd1EZOHOTu9aI1eC4hH
+myOJFO4Oc8gZyPSgC5RRRQAUVQdGknuj50q+WAVCtgDj0oa/MccbOikMgZjvAPPoO9AF+iqf2mRL
+ifzE/dRqDkHp/wDrp1reC4dkKqrAbvlcNx+FAFqikJwCetV45ZzN88RCHp7UAWaKKKACiiigAooo
+oAKKKzYSktxIjzzh/NYBVZsY/lQBpUVSW5ZAFRGkZ5HUBn6Y/DpRJeujv/o5KowViHHfHb8aALtF
+VFvDv2SRbCHCN82cZGQaIb4TCPbGcsWGM9AO/wDL86ALdFUV1DIkzGuUQuAsgbOPXHSlkvmjVN8S
+q75IDSADH1oAu0VWaV57EyW+QzLx61XWRkimaGWRiqZKSn5lPrzQBo0VTe7kigjZ4l3MOcyAD86R
+LqWS5i2J+6ePdyfpzQBdoqst1uSFtn+sJHXpjP8AhRa3TXBz5W1SMhgwP4H0NAFmiiigAooqK5JW
+1lIJBCEgj6UAS0Vmw3EjC2jdiJA4Dc/eBUkGp0vC7L+5IjckI27qR7dulAi3RVCO9kS23zINxcqu
+XAB5PX0xinf2gDErLGCzMVxvAUEe9Ay7RTI2LxqxUoT1U9qfQAUUVnyKzy3TiaVTHgqFbjpnpQBo
+UVS+2sEBERcKitIwOMZGeB3pXv1QkFP+WgTr2IzmmBcoqo1424COHeWdkX5sZx3pgut8sMh3IoV9
+657ikBeoqrFds7APCU3LvT5gdw/oaYmoKRIXQDYu75XDZ9uOhoAu0VhajdXIuBnzIflHyq/H6UUD
+sbtFFFAgooooAKKKKACiiigAooooAKKKKAI54vOiKZ25IOcehzRNEJomjYkBh1HapKKAKy2rNu8+
+YyblKcDbgf40RWzrKryzGTYMINuMf41ZooAKKKKAKklrI0srJPsWXG4bMnpjrTJdODFgku1WULgo
+CeBjrV6igCs9rvkkJf5JE2suP1zS21u0JJaQPxgYQLViigBCMgg9DVaK1KTFmkJUfdGf51aooAKK
+KKACiiigAooooAKigi8kP82d7lunTNS0UAVltdro2/7js/Trmh7TeJRvx5jhunTGP8Ks0UAVZrPz
+RP8AvMGUqQcfdIpFsUWSRgxw8ezHpxjP6CrdFAFFdPIVgZgcxmMYjAx71LPa+b5bK4V0GMlQwI+l
+WaKAITButvJLkcfeAwc1GLRmLtNNvZkKAhcYBq1RQBTaydhGTMCyKVJMYOR9Oxp0dqYzCVl/1a7D
+8v3h/SrVFAFOOzZJEPnkpGSVXb0znv8AjToLVopzK8u87do+UD8/WrVFABRRRQAUyVPMidM43KRn
+0p9FAFY2amSCTdhohjp94YpI7MpImZS0cZJRMdD9e9WqKAKZsiYihl6PvQ7R8v8Aj1pxtX8kIJgD
+kk/uxtP4VaooAjt4vIgWMEttHWpKKKACqklpI0kpWfYkv3l2ZPTHWrdFAFSSyySI5SiOoV1xnIHH
+XtxRLZLJMX3YBj2bcfrVuigCtHabBAN+fKyTx94kU1bIBhufI+fIx13VbooAqLZHBEsxcBCi8Y2g
+/wAzTE0/AYPIGBTZ8qBce9XqKAM2fS3uHDyXWWxj7n/16K0qKAuFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFNYAlQehP8ASgB1FJ5a
+f3RR5af3RQAtFJ5af3RR5af3RQAtFJ5af3RR5af3RQAtFJ5af3RR5af3RQAtFJ5af3RR5af3RQAt
+FJ5af3RR5af3RQAtFJ5af3RSbQrjaMZBoAdRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABTT95fr/Q06mn7y/X+hoAfRRTJt/kv5Yy+07R70AVrW8aeeZCoCryh/vDOKW2unmeI
+MFG+IuceucVHFazwvbkFGCKUYKMHB/HnmnWlvLHJCXXAWEqeRwc0AXaKKKACiiigAooooAKjeeOO
+VI3bDP8Adz0NSVHPAlxEY5BkH8x70AILiNrgwq2XAycdqe3+sH0P9KZb28dvHsjGPUnqT709v9YP
+of6UALRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABTWOCpPAz/SnUUAJvT+
+8v50b0/vL+dLRQAm9P7y/nRvT+8v50tFACb0/vL+dG9P7y/nS0UAJvT+8v50b0/vL+dLRQAm9P7y
+/nRvT+8v50tFACb0/vL+dG9P7y/nS0UAJvT+8v50mQzjBB4PT8KdRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="C:\Users\E1238450\Documents\Admin_tool\Test_data\APR20.json"
+		duration="20ms"
+		enabled="True"
+		optional="True"
+		presstime="20ms"
+		searchpropertyid="72dfcf7e-16ce-4203-8b32-7b2131ba0cf9">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="Data_model_path">
+				</binding>
+			</bindings>
+			<info
+			id="63fa8069-fa6a-4cad-a8d3-b204dace0ff7"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="2"
+				prefcap="text"
+				rect="234,511,423,20"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Edit
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						1148
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						3607014
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						18220
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						chrome
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						LeftToRightReading
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, ClipSiblings, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='Open']/?/?/text[@controlid='1148']
+				</path>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="40;20"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="3d58b6fe-32ad-4bd2-9732-7f05680d7c72"
+		sx="736"
+		sy="563"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="70e2e058-46c3-4fe8-873d-c84f75297f6c"
+			sourcename="Recorder">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="5"
+				prefcap="button"
+				rect="696,543,110,33"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						&amp;Open
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						1
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						2035506
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						11552
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						chrome
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, NoParentNotify
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, MaximizeBox, Group, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						&amp;Open
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='Open']/button[@text='&amp;Open']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="becb06a7-dff0-4bf0-aff4-51a048573ba0">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAFoAWgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACioPtP+x+tH2n/Y/WgCeioPtP8AsfrR9p/2P1oAnoqD7T/sfrR9p/2P1oAnoqD7T/sfrR9p/wBj
+9aAJ6Kg+0/7H60faf9j9aAJ6Kg+0/wCx+tH2n/Y/WgCeioPtP+x+tH2n/Y/WgCeioPtP+x+tH2n/
+AGP1oAnoqD7T/sfrR9p/2P1oAnoqD7T/ALH60faf9j9aAJ6Kg+0/7H60faf9j9aAJ6Kg+0/7H60f
+af8AY/WgCeioPtP+x+tH2n/Y/WgCeioPtP8AsfrR9p/2P1oAnoqD7T/sfrR9p/2P1oAnopiyblBx
+S7/agB1FN3+1G/2oAdRTd/tRv9qAHUU3f7Ub/agB1FN3+1G/2oAdRTd/tRv9qAHUU3f7Ub/agB1F
+N3+1FAFOil2t/dP5UbW/un8qAEopdrf3T+VG1v7p/KgBKKXa390/lRtb+6fyoASil2t/dP5UbW/u
+n8qAEopdrf3T+VG1v7p/KgBKKXa390/lRtb+6fyoASil2t/dP5UbW/un8qAEopdrf3T+VG1v7p/K
+gBKKXa390/lRtb+6fyoASil2t/dP5UbW/un8qAEopdrf3T+VG1v7p/KgBKKXa390/lRtb+6fyoAS
+il2t/dP5UbW/un8qAEopdrf3T+VG1v7p/KgBKKXa390/lRtb+6fyoAmi/wBWKfTYxhBmnUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAH2aD/AJ4R/wDfAo+zQf8APCP/AL4FSUUAR/ZoP+eEf/fAo+zQf88I/wDvgVJRQBH9mg/54R/9
+8Cj7NB/zwj/74FSUUAR/ZoP+eEf/AHwKPs0H/PCP/vgVJRQBH9mg/wCeEf8A3wKPs0H/ADwj/wC+
+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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="6ae161c5-4141-439a-9580-5d8cc9314714"
+		sx="1761"
+		sy="558"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6404ded4-a139-467e-aded-6dd922257ecc"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="1735,550,52,17"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						UPLOAD
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='UPLOAD']
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="True">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="True"
+		reportlevel="Info;20"
+		searchpropertyid="5c6a92a2-1707-4643-878c-957bbe0669a9">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f3388a36-eefb-410b-8538-f159d5b1b5b0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qa.mywater.cloud']/body
+				</path>
+			</info>
+		</loggingrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="24cdf53c-de60-42dc-a447-f2e1a8f8254e"
+		sx="0"
+		sy="137"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="07410b5c-1643-4efc-b4d9-d2df8533d8c9"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="0,137,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='UPLOAD FIRMWARE']
+				</path>
+			</info>
+		</mouseitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="True"
+		searchpropertyid="33beca26-265b-4a51-94e1-567db1abfda7">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7be0c407-1a1e-461c-9901-eadb4555c416"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="75,219,128,15"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Manage Device Type
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Manage Device Type']
+				</path>
+			</info>
+			<matchname>
+				TagName
+			</matchname>
+			<matchvalue>
+				span
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="True"
+		searchpropertyid="fc9c1419-9cc0-49fd-b1e6-ab4e247fa690">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e1642193-07d0-4de9-9dce-a39b3f19c4df"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="213,219,188,15"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Upload New Firmware Version
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']/div/div[2]/div[2]/div/div[1]/span[2]/span[@innertext&gt;'Upload New Firmware Versi']
+				</path>
+			</info>
+			<matchname>
+				TagName
+			</matchname>
+			<matchvalue>
+				span
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="True"
+		searchpropertyid="db0dd2ab-e8e5-4d5d-bdd4-9d5c1dd20360">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="46218da9-3cde-45dd-b804-f19915d067d0"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="75,262,290,28"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Upload New Firmware Version
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext&gt;'Upload New Firmware Versi']
+				</path>
+			</info>
+			<matchname>
+				TagName
+			</matchname>
+			<matchvalue>
+				span
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="True"
+		searchpropertyid="f61ac83d-9708-43ff-995c-fe1d6590518d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6d27506c-686a-43f4-8583-7767c1affc77"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="103,849,394,107"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						upload-wrapper
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						upload-wrapper
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']/div/div[2]/div[2]/div/div[2]/div/div/div/div[8]/div
+				</path>
+			</info>
+			<matchname>
+				TagName
+			</matchname>
+			<matchvalue>
+				div
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="True"
+		searchpropertyid="5b308dd0-3ffb-44c4-8575-4934dca0d58c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2be7822f-bf9e-4077-abde-4168efc18704"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="divtag"
+				rect="56,97,1843,786"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						content-wrapper
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						content-wrapper
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']/div/div[2]/div[2]
+				</path>
+			</info>
+			<matchname>
+				TagName
+			</matchname>
+			<matchvalue>
+				div
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="True"
+		searchpropertyid="724aaf54-ba16-4bd1-ae30-b3dc8ddd4384">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="697de047-af33-4311-9612-e3fd7c28d6d2"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, buttontag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="buttontag"
+				rect="1795,995,71,30"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						submit-button btn btn-primary
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						btn btn-primary submit-button
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Upload
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						submit
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']//button[@title='Upload']
+				</path>
+			</info>
+			<matchname>
+				TagName
+			</matchname>
+			<matchvalue>
+				button
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="True"
+		searchpropertyid="b7387f95-9da4-4470-98e9-04ccf4c42383">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bc369fe4-754b-478f-a95d-67f2cbd39100"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Cancel']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Cancel
+			</matchvalue>
+		</validationitem>
+		<keysequenceitem
+		KeySequence="12345"
+		duration="20ms"
+		enabled="True"
+		optional="True"
+		presstime="20ms"
+		searchpropertyid="8460d113-71fe-410d-b144-0bf37ca07cc4">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="26b86514-ab7d-4c94-839e-6e5253e19ae5"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="inputtag"
+				rect="110,355,389,32"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						pco
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						form-control
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						pco
+					</attribute>
+					<attribute
+					name="pattern"
+					type="System.String">
+						^[0-9]\d*(\.\d+)?$
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						Enter PCO
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="inputmode"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//input[#'pco']
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="1.6"
+		duration="20ms"
+		enabled="True"
+		optional="True"
+		presstime="20ms"
+		searchpropertyid="48354d4a-2106-41ae-b1af-431c2e4b1b5f">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="new_FW">
+				</binding>
+			</bindings>
+			<info
+			id="a059441f-79fa-455a-879c-cc883b692045"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="inputtag"
+				rect="110,428,389,32"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						fmversion
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						form-control
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						fmversion
+					</attribute>
+					<attribute
+					name="pattern"
+					type="System.String">
+						^[0-9]{1,2}(\.\d{1,2})(\.\d{1,2})?$
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						Enter firmware version
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="inputmode"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//input[#'fmversion']
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="host 2"
+		duration="20ms"
+		enabled="True"
+		optional="True"
+		presstime="20ms"
+		searchpropertyid="be2f9f8c-c32e-49ba-87d3-7f6a5b714062">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cceefe26-3379-45cd-8a63-acfcbddedd0c"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']//select[@id='formControlsSelect']
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="Auto"
+		duration="20ms"
+		enabled="True"
+		optional="True"
+		presstime="20ms"
+		searchpropertyid="3b184c76-5479-4f5e-946f-3588094ab532">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f3f89ace-fbdb-474c-b00d-bb2f25324a20"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, selecttag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="selecttag"
+				rect="110,339,390,32"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						checksumAlgo
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						form-control
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						select
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						calgo
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="placeholder"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//select[#'checksumAlgo']
+				</path>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="5cca07cd-1c73-4077-92fd-a2cfb5558467"
+		sx="217"
+		sy="427"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cc5bdd92-1d07-4bb5-a022-835ba1cfc10b"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="178,417,79,21"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-custom-label
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Non AFR
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						radio-custom-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio-4
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']//label[@innertext='Non AFR']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="096c504a-6194-4370-9091-04c75dbbf64e"
+		sx="147"
+		sy="499"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9a6af536-e0b2-4f74-b25c-8571ee82738e"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="115,489,65,21"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-custom-label
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Active
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						radio-custom-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio-5
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']//label[@innertext='Active']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="Ranorex_upload"
+		duration="20ms"
+		enabled="True"
+		optional="True"
+		presstime="20ms"
+		searchpropertyid="64e8c6d2-ad58-421e-bdb5-9c6aa040bf62">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="422c8aa4-3dea-4f90-abe9-d71543ce3bf8"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, textareatag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="textareatag"
+				rect="110,555,389,90"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						notes
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						form-control
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						textarea
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="cols"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						notes
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						Enter notes
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="rows"
+					type="System.String">
+						2
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//textarea[#'notes']
+				</path>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="f725a735-26ca-4f0b-9dc1-a1efcf9bdc6c"
+		sx="305"
+		sy="736"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ca0d4b31-4266-42d7-8e9d-4f866079f8d9"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="110,665,390,142"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="accept"
+					type="System.String">
+						.bin
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						firmware
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						file
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']//input[@name='firmware']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="C:\Users\E1238450\Documents\Admin_tool\Test_data\APR20.json"
+		duration="20ms"
+		enabled="True"
+		optional="True"
+		presstime="20ms"
+		searchpropertyid="72dfcf7e-16ce-4203-8b32-7b2131ba0cf9">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="FW_Path">
+				</binding>
+			</bindings>
+			<info
+			id="63fa8069-fa6a-4cad-a8d3-b204dace0ff7"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="2"
+				prefcap="text"
+				rect="234,511,423,20"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Edit
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						1148
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						3607014
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						18220
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						chrome
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						LeftToRightReading
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, ClipSiblings, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='Open']/?/?/text[@controlid='1148']
+				</path>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="40;20"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="3d58b6fe-32ad-4bd2-9732-7f05680d7c72"
+		sx="736"
+		sy="563"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="70e2e058-46c3-4fe8-873d-c84f75297f6c"
+			sourcename="Recorder">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="5"
+				prefcap="button"
+				rect="696,543,110,33"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						&amp;Open
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						1
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						2035506
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						11552
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						chrome
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, NoParentNotify
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, MaximizeBox, Group, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						&amp;Open
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='Open']/button[@text='&amp;Open']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="becb06a7-dff0-4bf0-aff4-51a048573ba0">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAFoAWgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACioPtP+x+tH2n/Y/WgCeioPtP8AsfrR9p/2P1oAnoqD7T/sfrR9p/2P1oAnoqD7T/sfrR9p/wBj
+9aAJ6Kg+0/7H60faf9j9aAJ6Kg+0/wCx+tH2n/Y/WgCeioPtP+x+tH2n/Y/WgCeioPtP+x+tH2n/
+AGP1oAnoqD7T/sfrR9p/2P1oAnoqD7T/ALH60faf9j9aAJ6Kg+0/7H60faf9j9aAJ6Kg+0/7H60f
+af8AY/WgCeioPtP+x+tH2n/Y/WgCeioPtP8AsfrR9p/2P1oAnoqD7T/sfrR9p/2P1oAnopiyblBx
+S7/agB1FN3+1G/2oAdRTd/tRv9qAHUU3f7Ub/agB1FN3+1G/2oAdRTd/tRv9qAHUU3f7Ub/agB1F
+N3+1FAFOil2t/dP5UbW/un8qAEopdrf3T+VG1v7p/KgBKKXa390/lRtb+6fyoASil2t/dP5UbW/u
+n8qAEopdrf3T+VG1v7p/KgBKKXa390/lRtb+6fyoASil2t/dP5UbW/un8qAEopdrf3T+VG1v7p/K
+gBKKXa390/lRtb+6fyoASil2t/dP5UbW/un8qAEopdrf3T+VG1v7p/KgBKKXa390/lRtb+6fyoAS
+il2t/dP5UbW/un8qAEopdrf3T+VG1v7p/KgBKKXa390/lRtb+6fyoAmi/wBWKfTYxhBmnUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAH2aD/AJ4R/wDfAo+zQf8APCP/AL4FSUUAR/ZoP+eEf/fAo+zQf88I/wDvgVJRQBH9mg/54R/9
+8Cj7NB/zwj/74FSUUAR/ZoP+eEf/AHwKPs0H/PCP/vgVJRQBH9mg/wCeEf8A3wKPs0H/ADwj/wC+
+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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="d4b6f41f-5266-4b13-a3fc-0f44a2d500c2"
+		sx="0"
+		sy="137"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6404ded4-a139-467e-aded-6dd922257ecc"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="0,137,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='UPLOAD']
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Success;110"
+		searchpropertyid="6bfc989e-37e1-48af-890d-1452d6613193">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="50532ae7-e3ea-4561-81ab-8e872d038d1e"
+	name="BVT_Admin_WebappRepository"
+	relativepath="BVT_Admin_WebappRepository.rxrep">
+		<codegen
+		classname="BVT_Admin_WebappRepository"
+		namespace="BVT_Admin_Wenapp">
+		</codegen>
+		<rootfolder
+		id="f0d6247d-de7e-478a-8411-e4e686e2f7f3"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		devices.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

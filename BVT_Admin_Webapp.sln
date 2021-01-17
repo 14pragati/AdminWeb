@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# Ranorex Studio 9.3.0
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C45638D9-C0A9-4577-BC44-3F14DE9AE420}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BVT_Admin_Webapp", "BVT_Admin_Wenapp\BVT_Admin_Webapp.csproj", "{79A8ABC2-653C-4BD5-8928-EB2AB2B2C688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranorex Automation Helpers", "RanorexAutomationHelpers\Ranorex Automation Helpers.csproj", "{E83D7B54-8215-4EBB-B996-3B95C7BCB0DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79A8ABC2-653C-4BD5-8928-EB2AB2B2C688}.Debug|x86.Build.0 = Debug|x86
+		{79A8ABC2-653C-4BD5-8928-EB2AB2B2C688}.Debug|x86.ActiveCfg = Debug|x86
+		{79A8ABC2-653C-4BD5-8928-EB2AB2B2C688}.Release|x86.Build.0 = Release|x86
+		{79A8ABC2-653C-4BD5-8928-EB2AB2B2C688}.Release|x86.ActiveCfg = Release|x86
+		{E83D7B54-8215-4EBB-B996-3B95C7BCB0DA}.Debug|x86.Build.0 = Debug|x86
+		{E83D7B54-8215-4EBB-B996-3B95C7BCB0DA}.Debug|x86.ActiveCfg = Debug|x86
+		{E83D7B54-8215-4EBB-B996-3B95C7BCB0DA}.Release|x86.Build.0 = Release|x86
+		{E83D7B54-8215-4EBB-B996-3B95C7BCB0DA}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{79A8ABC2-653C-4BD5-8928-EB2AB2B2C688}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>e31b04b7-06f2-4ce2-8bbf-e672b6307582</string>
+      <string>1dfaa59f-04b0-4d4b-857f-8be2f61449b2</string>
+      <string>d0abf0e2-3bd1-4cda-8098-254bb105b3bf</string>
+      <string>{E83D7B54-8215-4EBB-B996-3B95C7BCB0DA}</string>
+      <string>Modules</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution BVT_Admin_Webapp[BVT_Admin_Webapp[]]]&#xD;&#xA;Solution BVT_Admin_Webapp\BVT_Admin_Webapp\add_support_user.rxrec&#xD;&#xA;Solution BVT_Admin_Webapp" />
+  <StartupProject value="{79A8ABC2-653C-4BD5-8928-EB2AB2B2C688}" />
+</Properties>
