@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.1m"
+		durationms="66336"
+		type="root"
+		rid="29921cdd6aa1404e"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="E1238622"
+		rxversion="9.3.4.0"
+		host="INNOIL0106"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/22/2020 10:58:13 PM"
+		timestampiso="2020-12-22T17:28:13"
+		endtime="12/22/2020 10:59:20 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="OpenBrowser">
+		<detail>
+			OpenBrowser
+		</detail>
+		<errormessage>
+			Failed to find item 'BVT_Admin_WebappRepository.AdminWebapp.Screenshots'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.857"
+			timeRelativeToTestModuleStartTime="00:05.857"
+			timeWallClock="22:58:19"
+			time="00:05.857"
+			level="Warn"
+			category="Data"
+			errimg="images_OpenBrow_61be4ead\OpenBrow_61be4ead_6cdbfbeb_trace.jpg"
+			errthumb="images_OpenBrow_61be4ead\OpenBrow_61be4ead_6cdbfbeb_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>browser, url
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.876"
+			timeRelativeToTestModuleStartTime="00:05.876"
+			timeWallClock="22:58:19"
+			time="00:05.876"
+			level="Info"
+			category="Website"
+			errimg="images_OpenBrow_61be4ead\OpenBrow_61be4ead_6cdbfbeb_trace.jpg"
+			errthumb="images_OpenBrow_61be4ead\OpenBrow_61be4ead_6cdbfbeb_trace_thumb.jpg">
+			<message>
+				Opening web site URL in variable $url with browser specified by variable $browser in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\E1238622\Documents\Ranorex\BVT_Admin_Webapp\BVT_Admin_Wenapp\OpenBrowser.cs"
+				codeline="106"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.163"
+			timeRelativeToTestModuleStartTime="00:06.163"
+			timeWallClock="22:58:19"
+			time="00:06.163"
+			level="Info"
+			category="User"
+			errimg="images_OpenBrow_61be4ead\OpenBrow_5b0e451b_rxlog.jpg"
+			errthumb="images_OpenBrow_61be4ead\OpenBrow_5b0e451b_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\E1238622\Documents\Ranorex\BVT_Admin_Webapp\BVT_Admin_Wenapp\OpenBrowser.cs"
+				codeline="110"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:06.225"
+			timeRelativeToTestModuleStartTime="01:06.225"
+			timeWallClock="22:59:19"
+			time="01:06.225"
+			level="Error"
+			category="Module"
+			errimg="images_OpenBrow_61be4ead\OpenBrow_61be4ead_1868af15_trace.jpg"
+			errthumb="images_OpenBrow_61be4ead\OpenBrow_61be4ead_1868af15_trace_thumb.jpg">
+			<message>
+				Failed to find item 'BVT_Admin_WebappRepository.AdminWebapp.Screenshots'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/dom[@domain='']/body' at step 'dom[@domain='']' after 1003 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.FindAdapter[T]()&#13;&#10;   at BVT_Admin_Wenapp.OpenBrowser.Report_Screenshot_Screenshots(RepoItemInfo bodytagInfo) in c:\Users\E1238622\Documents\Ranorex\BVT_Admin_Webapp\BVT_Admin_Wenapp\OpenBrowser.UserCode.cs:line 38&#13;&#10;   at BVT_Admin_Wenapp.OpenBrowser.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\E1238622\Documents\Ranorex\BVT_Admin_Webapp\BVT_Admin_Wenapp\OpenBrowser.cs:line 112&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\E1238622\Documents\Ranorex\BVT_Admin_Webapp\BVT_Admin_Wenapp\OpenBrowser.UserCode.cs"
+				codeline="38"
+				type="repoitem"
+				path="/dom[@domain='']/body"
+				itempath="body"
+				fullname="BVT_Admin_WebappRepository.AdminWebapp.Screenshots"
+				id="f3388a36eefb410b8538f159d5b1b5b0"
+				timeout="60000"
+				failedStep="dom[@domain=$url]"
+				bestPathPrefix=""
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

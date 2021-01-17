@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="26.61s"
+		durationms="26613"
+		type="root"
+		rid="16dc49c47c48f34"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="E1238622"
+		rxversion="9.3.4.0"
+		host="INNOIL0106"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="1/13/2021 12:18:43 PM"
+		timestampiso="2021-01-13T06:48:43"
+		endtime="1/13/2021 12:19:10 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="OTA_single_device">
+		<detail>
+			OTA_single_device
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.741"
+			timeRelativeToTestModuleStartTime="00:03.741"
+			timeWallClock="12:18:47"
+			time="00:03.741"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>device_type, JOB_Id, url, New_OTA_JOB, device_id, FW_ver
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.762"
+			timeRelativeToTestModuleStartTime="00:03.762"
+			timeWallClock="12:18:47"
+			time="00:03.762"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (TagName='div') on item 'AdminWebapp1.Root.JobBox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='']//div[#'root']/div/div[2]/div[2]/div/div[2]/div[2]/div[1]/div[1]/div/div/div/div[2]"
+				itempath="div/div[2]/div[2]/div/div[2]/div[2]/div[1]/div[1]/div/div/div/div[2]"
+				fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.JobBox"
+				id="3074c51d9c83476e95b4fb6a29dc25c9"
+				timeout="90000"
+				codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+				codeline="151"
+				itemindex="54"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.610"
+			timeRelativeToTestModuleStartTime="00:26.610"
+			timeWallClock="12:19:10"
+			time="00:26.610"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

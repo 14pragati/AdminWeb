@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="57.33s"
+		durationms="57330"
+		type="root"
+		rid="44b8a3a4d640634"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="E1238622"
+		rxversion="9.3.4.0"
+		host="INNOIL0106"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/22/2020 8:16:21 PM"
+		timestampiso="2020-12-22T14:46:21"
+		endtime="12/22/2020 8:17:19 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="To_verify_user_is_able_to_update_profile">
+		<detail>
+			To_verify_user_is_able_to_update_profile
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.572"
+			timeRelativeToTestModuleStartTime="00:08.572"
+			timeWallClock="20:16:30"
+			time="00:08.572"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>address, url
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.595"
+			timeRelativeToTestModuleStartTime="00:08.595"
+			timeWallClock="20:16:30"
+			time="00:08.595"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AdminWebapp.Logged' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='']//a[#'dropdown-no-caret ']/img[@alt='logged']"
+				itempath=".//a[#'dropdown-no-caret ']/img[@alt='logged']"
+				fullname="BVT_Admin_WebappRepository.AdminWebapp.Logged"
+				id="1f847f192ff2486a926317f7cab0d78b"
+				timeout="60000"
+				codefile="c:\Users\E1238622\Documents\Ranorex\BVT_Admin_Webapp\BVT_Admin_Wenapp\To_verify_user_is_able_to_update_profile.cs"
+				codeline="105"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:57.324"
+			timeRelativeToTestModuleStartTime="00:57.324"
+			timeWallClock="20:17:19"
+			time="00:57.324"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

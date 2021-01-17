@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="20.23s"
+		durationms="20232"
+		type="root"
+		rid="e316212174f68f8"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="E1238622"
+		rxversion="9.3.4.0"
+		host="INNOIL0106"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="1/13/2021 12:56:53 PM"
+		timestampiso="2021-01-13T07:26:53"
+		endtime="1/13/2021 12:57:14 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="OTA_single_device">
+		<detail>
+			OTA_single_device
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.376"
+			timeRelativeToTestModuleStartTime="00:04.376"
+			timeWallClock="12:56:57"
+			time="00:04.376"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>device_type, JOB_Id, url, New_OTA_JOB, device_id, FW_ver
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.394"
+			timeRelativeToTestModuleStartTime="00:04.394"
+			timeWallClock="12:56:57"
+			time="00:04.394"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Middle Click item 'AdminWebapp2.BtnBtnDefault' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.mywater.cloud']//div[#'root']/div/div[2]/div[2]/div/div[1]/div[3]/button"
+				itempath=".//div[#'root']/div/div[2]/div[2]/div/div[1]/div[3]/button"
+				fullname="BVT_Admin_WebappRepository.AdminWebapp2.BtnBtnDefault"
+				id="c5c27b3305dd4f38b716b66aaefc371d"
+				timeout="60000"
+				codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+				codeline="152"
+				itemindex="65"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.032"
+			timeRelativeToTestModuleStartTime="00:06.032"
+			timeWallClock="12:56:59"
+			time="00:06.032"
+			level="Info"
+			category="Delay"
+			errimg="images_OTA_sing_19fb3561\OTA_sing_19fb3561_59cfa5ef_trace.jpg"
+			errthumb="images_OTA_sing_19fb3561\OTA_sing_19fb3561_59cfa5ef_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="66"
+				codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+				codeline="158"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.091"
+			timeRelativeToTestModuleStartTime="00:11.091"
+			timeWallClock="12:57:04"
+			time="00:11.091"
+			level="Info"
+			category="User"
+			errimg="images_OTA_sing_19fb3561\OTA_sing_4e227e09_rxlog.jpg"
+			errthumb="images_OTA_sing_19fb3561\OTA_sing_4e227e09_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="67"
+				codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+				codeline="163"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.097"
+			timeRelativeToTestModuleStartTime="00:11.097"
+			timeWallClock="12:57:04"
+			time="00:11.097"
+			level="Info"
+			category="Validation"
+			errimg="images_OTA_sing_19fb3561\OTA_sing_19fb3561_bbde256b_trace.jpg"
+			errthumb="images_OTA_sing_19fb3561\OTA_sing_19fb3561_bbde256b_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>Validating AttributeEqual (TagName='input') on item 'AdminWebapp1.Root.Text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='']//div[#'root']//input[@type='text']"
+				itempath=".//input[@type='text']"
+				fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.Text"
+				id="084703410daa445bad400e320f42c0c6"
+				timeout="90000"
+				codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+				codeline="167"
+				itemindex="68"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.232"
+			timeRelativeToTestModuleStartTime="00:20.232"
+			timeWallClock="12:57:13"
+			time="00:20.232"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.239"
+			timeRelativeToTestModuleStartTime="00:20.239"
+			timeWallClock="12:57:13"
+			time="00:20.239"
+			level="Warn"
+			category="Module"
+			errimg="images_OTA_sing_19fb3561\OTA_sing_19fb3561_65243dcd_trace.jpg"
+			errthumb="images_OTA_sing_19fb3561\OTA_sing_19fb3561_65243dcd_trace_thumb.jpg">
+			<message>
+				(Optional Action) Thread was being aborted.
+			</message>
+			<metainfo
+				itemindex="68"
+				codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+				codeline="170"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

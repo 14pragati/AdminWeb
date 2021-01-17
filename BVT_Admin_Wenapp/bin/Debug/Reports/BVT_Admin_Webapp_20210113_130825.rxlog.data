@@ -1,0 +1,2982 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="2.1m"
+		durationms="123304"
+		type="root"
+		rid="498e8e76eaf95fc"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="2"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="1"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="2"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="E1238622"
+		rxversion="9.3.4.0"
+		host="INNOIL0106"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="1/13/2021 1:08:25 PM"
+		timestampiso="2021-01-13T07:38:25"
+		endtime="1/13/2021 1:10:28 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="2m"
+			durationms="119838"
+			type="test-suite"
+			rid="c65de8b2dc84360"
+			totalerrorcount="0"
+			totalwarningcount="1"
+			totalsuccesstestcasecount="2"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			childsuccesscount="2"
+			childfailedcount="0"
+			childblockedcount="0"
+			totalsuccesscount="2"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="BVT_Admin_Webapp"
+			headertext="BVT_Admin_Webapp"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+				<param
+					name="PdfName">
+					MyTest
+				</param>
+				<param
+					name="style">
+					C:\tmp\style.xml
+				</param>
+				<param
+					name="Details">
+					all
+				</param>
+			</params>
+			<activity
+				result="Success"
+				duration="1.89s"
+				durationms="1885"
+				type="iteration-container"
+				rid="5c46d4ec900b40a"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				displayName="Launch_web_Browser"
+				headertext="Launch_web_Browser"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="5e5bafb7-ed84-4d62-96bb-f2359320df60"
+				datasource="data_file"
+				dataiterationcount="1">
+				<activity
+					result="Success"
+					duration="1.88s"
+					durationms="1876"
+					type="test-case"
+					rid="254c4bae49e27430"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="1"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="Launch_web_Browser"
+					testcontainerid="5e5bafb7-ed84-4d62-96bb-f2359320df60"
+					headertext="Launch_web_Browser"
+					displayName="Launch_web_Browser"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="url">
+							qa.mywater.cloud
+						</field>
+						<field
+							name="browser">
+							chrome
+						</field>
+						<field
+							name="username">
+							pragati.dubey@pentair.com
+						</field>
+						<field
+							name="Password">
+							Password@123
+						</field>
+						<field
+							name="address1">
+							Pentair India
+						</field>
+						<field
+							name="Admin_fname">
+							pragati
+						</field>
+						<field
+							name="Admin_lname">
+							duchaniya
+						</field>
+						<field
+							name="Admin_email">
+							admintesting@mailinator.com
+						</field>
+						<field
+							name="Admin_phone">
+							7.80E+01
+						</field>
+						<field
+							name="Support_fname">
+							pragati
+						</field>
+						<field
+							name="Support_lname">
+							duchaniya
+						</field>
+						<field
+							name="Support_email">
+							rishab.dhaka@pentair.com
+						</field>
+						<field
+							name="Support_phone">
+							8.90E+01
+						</field>
+						<field
+							name="home_fname">
+							Jaspreet
+						</field>
+						<field
+							name="home_lname">
+							Singh
+						</field>
+						<field
+							name="home_email">
+							consumer2068897352@mailinator.com
+						</field>
+						<field
+							name="home_phone">
+							64
+						</field>
+						<field
+							name="dealer_fname">
+							test
+						</field>
+						<field
+							name="dealer_lname">
+							admin
+						</field>
+						<field
+							name="dealer_email">
+							deltestdealer@gmail.com
+						</field>
+						<field
+							name="dealer_phone">
+							78
+						</field>
+						<field
+							name="dealer_company">
+							Filteration Mock3
+						</field>
+						<field
+							name="edit_admin">
+							ranorex98348@mailinator.com
+						</field>
+						<field
+							name="edit_support">
+							ranorex74291@mailinator.com
+						</field>
+						<field
+							name="device_type">
+							XTR1
+						</field>
+						<field
+							name="fimrware">
+							XTR1_2.12
+						</field>
+						<field
+							name="device_id">
+							PNRQ1XTR10000020C3
+						</field>
+						<field
+							name="data_model_path">
+							C:\Users\E1238622\Downloads
+						</field>
+						<field
+							name="FW_path">
+							C:\Users\E1238622\Downloads
+						</field>
+						<field
+							name="new_fimrware">
+							1.9
+						</field>
+						<field
+							name="device_S_fname">
+							test
+						</field>
+						<field
+							name="device_l_fname">
+							test
+						</field>
+						<field
+							name="email">
+							iotxtr40@gmail.com
+						</field>
+						<field
+							name="ESC">
+							PNR04ESC1000012083
+						</field>
+						<field
+							name="PIF0">
+							PNRA0PIF01333K8PE3
+						</field>
+						<field
+							name="WQM">
+							PNR05WQM10000190A5
+						</field>
+						<field
+							name="SSPC">
+							PNR02SPC100003308F
+						</field>
+						<field
+							name="PIDO">
+							PNRA3PID000000043
+						</field>
+						<field
+							name="PPAO">
+							PNRA3PPA000008366
+						</field>
+						<field
+							name="PPSO">
+							PNRA3PPS00033333V
+						</field>
+						<field
+							name="PWAO">
+							PNRA3PWA000002229
+						</field>
+						<field
+							name="PGW0">
+							PNRA3PGW000036525
+						</field>
+						<field
+							name="PLC1">
+							PNRQ1PLC10000130A6
+						</field>
+						<field
+							name="SSS">
+							PNRQ1SSS10000200BE
+						</field>
+						<field
+							name="IF3">
+							PNR05IF3100000206A
+						</field>
+					</datarow>
+					<activity
+						result="Success"
+						duration="1.84s"
+						durationms="1839"
+						type="test-module"
+						rid="eea0b3bd23d2b4d"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="OpenBrowser"
+						displayName="OpenBrowser"
+						moduleid="71de7f78-b07c-43d7-86fa-9d38dae35fca"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="url"
+								value="qa.mywater.cloud">
+							</varbinding>
+							<varbinding
+								name="browser"
+								value="chrome">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.067"
+							timeRelativeToTestModuleStartTime="00:00.007"
+							timeWallClock="13:08:28"
+							time="00:00.067"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$url = 'qa.mywater.cloud', $browser = 'chrome'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.116"
+							timeRelativeToTestModuleStartTime="00:00.056"
+							timeWallClock="13:08:28"
+							time="00:00.116"
+							level="Info"
+							category="Website">
+							<message>
+								(Optional Action)<br/>Opening web site URL in variable $url with browser specified by variable $browser in maximized mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OpenBrowser.cs"
+								codeline="107"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.896"
+							timeRelativeToTestModuleStartTime="00:01.836"
+							timeWallClock="13:08:30"
+							time="00:01.896"
+							level="Info"
+							category="The admin web app test url has been opnened successfully"
+							errimg="images_BVT_Admi_9d00bb9b\BVT_Admi_b90b6565_rxlog.jpg"
+							errthumb="images_BVT_Admi_9d00bb9b\BVT_Admi_b90b6565_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OpenBrowser.UserCode.cs"
+								codeline="38"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+			<activity
+				result="Success"
+				duration="2m"
+				durationms="117932"
+				type="iteration-container"
+				rid="d05e86d17caef0"
+				totalerrorcount="0"
+				totalwarningcount="1"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				displayName="Verify_OTA_single_device"
+				headertext="Verify_OTA_single_device"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="926a42cd-da41-41d2-ab37-b521001ff360"
+				datasource="data_file"
+				dataiterationcount="1">
+				<activity
+					result="Success"
+					duration="2m"
+					durationms="117930"
+					type="test-case"
+					rid="112d42f9f92d3bc"
+					totalerrorcount="0"
+					totalwarningcount="1"
+					totalsuccesstestcasecount="1"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="Verify_OTA_single_device"
+					testcontainerid="926a42cd-da41-41d2-ab37-b521001ff360"
+					headertext="Verify_OTA_single_device"
+					displayName="Verify_OTA_single_device"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="url">
+							qa.mywater.cloud
+						</field>
+						<field
+							name="browser">
+							chrome
+						</field>
+						<field
+							name="username">
+							pragati.dubey@pentair.com
+						</field>
+						<field
+							name="Password">
+							Password@123
+						</field>
+						<field
+							name="address1">
+							Pentair India
+						</field>
+						<field
+							name="Admin_fname">
+							pragati
+						</field>
+						<field
+							name="Admin_lname">
+							duchaniya
+						</field>
+						<field
+							name="Admin_email">
+							admintesting@mailinator.com
+						</field>
+						<field
+							name="Admin_phone">
+							7.80E+01
+						</field>
+						<field
+							name="Support_fname">
+							pragati
+						</field>
+						<field
+							name="Support_lname">
+							duchaniya
+						</field>
+						<field
+							name="Support_email">
+							rishab.dhaka@pentair.com
+						</field>
+						<field
+							name="Support_phone">
+							8.90E+01
+						</field>
+						<field
+							name="home_fname">
+							Jaspreet
+						</field>
+						<field
+							name="home_lname">
+							Singh
+						</field>
+						<field
+							name="home_email">
+							consumer2068897352@mailinator.com
+						</field>
+						<field
+							name="home_phone">
+							64
+						</field>
+						<field
+							name="dealer_fname">
+							test
+						</field>
+						<field
+							name="dealer_lname">
+							admin
+						</field>
+						<field
+							name="dealer_email">
+							deltestdealer@gmail.com
+						</field>
+						<field
+							name="dealer_phone">
+							78
+						</field>
+						<field
+							name="dealer_company">
+							Filteration Mock3
+						</field>
+						<field
+							name="edit_admin">
+							ranorex98348@mailinator.com
+						</field>
+						<field
+							name="edit_support">
+							ranorex74291@mailinator.com
+						</field>
+						<field
+							name="device_type">
+							XTR1
+						</field>
+						<field
+							name="fimrware">
+							XTR1_2.12
+						</field>
+						<field
+							name="device_id">
+							PNRQ1XTR10000020C3
+						</field>
+						<field
+							name="data_model_path">
+							C:\Users\E1238622\Downloads
+						</field>
+						<field
+							name="FW_path">
+							C:\Users\E1238622\Downloads
+						</field>
+						<field
+							name="new_fimrware">
+							1.9
+						</field>
+						<field
+							name="device_S_fname">
+							test
+						</field>
+						<field
+							name="device_l_fname">
+							test
+						</field>
+						<field
+							name="email">
+							iotxtr40@gmail.com
+						</field>
+						<field
+							name="ESC">
+							PNR04ESC1000012083
+						</field>
+						<field
+							name="PIF0">
+							PNRA0PIF01333K8PE3
+						</field>
+						<field
+							name="WQM">
+							PNR05WQM10000190A5
+						</field>
+						<field
+							name="SSPC">
+							PNR02SPC100003308F
+						</field>
+						<field
+							name="PIDO">
+							PNRA3PID000000043
+						</field>
+						<field
+							name="PPAO">
+							PNRA3PPA000008366
+						</field>
+						<field
+							name="PPSO">
+							PNRA3PPS00033333V
+						</field>
+						<field
+							name="PWAO">
+							PNRA3PWA000002229
+						</field>
+						<field
+							name="PGW0">
+							PNRA3PGW000036525
+						</field>
+						<field
+							name="PLC1">
+							PNRQ1PLC10000130A6
+						</field>
+						<field
+							name="SSS">
+							PNRQ1SSS10000200BE
+						</field>
+						<field
+							name="IF3">
+							PNR05IF3100000206A
+						</field>
+					</datarow>
+					<activity
+						result="Success"
+						duration="2m"
+						durationms="117928"
+						type="test-module"
+						rid="c663816d35247b0"
+						totalerrorcount="0"
+						totalwarningcount="1"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="OTA_single_device"
+						displayName="OTA_single_device"
+						moduleid="85b8e422-db07-4e9a-a400-6f463870a199"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="device_type"
+								value="XTR1">
+							</varbinding>
+							<varbinding
+								name="device_id"
+								value="PNRQ1XTR10000020C3">
+							</varbinding>
+							<varbinding
+								name="FW_ver"
+								value="XTR1_2.12">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.907"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="13:08:30"
+							time="00:01.907"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$device_type = 'XTR1', $device_id = 'PNRQ1XTR10000020C3', $FW_ver = 'XTR1_2.12'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.947"
+							timeRelativeToTestModuleStartTime="00:00.041"
+							timeWallClock="13:08:30"
+							time="00:01.947"
+							level="Warn"
+							category="Data">
+							<message>
+								The following module variables are not bound to a data column:<br/>JOB_Id, url, New_OTA_JOB
+							</message>
+							<metainfo
+								loglvl="Warn">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.999"
+							timeRelativeToTestModuleStartTime="00:00.092"
+							timeWallClock="13:08:30"
+							time="00:01.999"
+							level="Info"
+							category="Delay">
+							<message>
+								(Optional Action)<br/>Waiting for 2s.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="152"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:04.044"
+							timeRelativeToTestModuleStartTime="00:02.138"
+							timeWallClock="13:08:32"
+							time="00:04.044"
+							level="Info"
+							category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'AdminWebapp.OTAJob' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'menu']//li[@title='OTA Job']"
+								itempath=".//div[#'menu']//li[@title='OTA Job']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.OTAJob"
+								id="96c13c3664544a3ea714e08c0023fbb1"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="157"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:04.601"
+							timeRelativeToTestModuleStartTime="00:02.694"
+							timeWallClock="13:08:33"
+							time="00:04.601"
+							level="Info"
+							category="Delay">
+							<message>
+								(Optional Action)<br/>Waiting for 5s.
+							</message>
+							<metainfo
+								itemindex="2"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="163"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.669"
+							timeRelativeToTestModuleStartTime="00:07.763"
+							timeWallClock="13:08:38"
+							time="00:09.669"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeEqual (TagName='div') on item 'AdminWebapp1.Root.ActiveOTAJobs'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//div[@innertext='Active OTA Jobs']"
+								itempath=".//div[@innertext='Active OTA Jobs']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.ActiveOTAJobs"
+								id="badc1b3fd16f47758083c4a9fa198ece"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="168"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.752"
+							timeRelativeToTestModuleStartTime="00:07.846"
+							timeWallClock="13:08:38"
+							time="00:09.752"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'TagName' of element for item 'BVT_Admin_WebappRepository.AdminWebapp1.Root.ActiveOTAJobs' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//div[@innertext='Active OTA Jobs']"
+								itempath=".//div[@innertext='Active OTA Jobs']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.ActiveOTAJobs"
+								id="badc1b3fd16f47758083c4a9fa198ece"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="169"
+								loglvl="Success"
+								itemindex="3">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.779"
+							timeRelativeToTestModuleStartTime="00:07.873"
+							timeWallClock="13:08:38"
+							time="00:09.779"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeEqual (TagName='path') on item 'AdminWebapp1.Root.Path'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//tag[@tagname='svg']/tag[2]"
+								itempath=".//tag[@tagname='svg']/tag[2]"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.Path"
+								id="a3909d59d59247898d1bc4cc605a3f2c"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="174"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.855"
+							timeRelativeToTestModuleStartTime="00:07.949"
+							timeWallClock="13:08:38"
+							time="00:09.855"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'TagName' of element for item 'BVT_Admin_WebappRepository.AdminWebapp1.Root.Path' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//tag[@tagname='svg']/tag[2]"
+								itempath=".//tag[@tagname='svg']/tag[2]"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.Path"
+								id="a3909d59d59247898d1bc4cc605a3f2c"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="175"
+								loglvl="Success"
+								itemindex="4">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.879"
+							timeRelativeToTestModuleStartTime="00:07.973"
+							timeWallClock="13:08:38"
+							time="00:09.879"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeEqual (TagName='button') on item 'AdminWebapp1.Root.CREATEOTAJOB'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//button[@innertext='CREATE OTA JOB ']"
+								itempath=".//button[@innertext='CREATE OTA JOB ']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.CREATEOTAJOB"
+								id="6771a9f6c44544919d9f78ee1ae9e645"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="180"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.948"
+							timeRelativeToTestModuleStartTime="00:08.042"
+							timeWallClock="13:08:38"
+							time="00:09.948"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'TagName' of element for item 'BVT_Admin_WebappRepository.AdminWebapp1.Root.CREATEOTAJOB' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//button[@innertext='CREATE OTA JOB ']"
+								itempath=".//button[@innertext='CREATE OTA JOB ']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.CREATEOTAJOB"
+								id="6771a9f6c44544919d9f78ee1ae9e645"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="181"
+								loglvl="Success"
+								itemindex="5">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.058"
+							timeRelativeToTestModuleStartTime="00:08.152"
+							timeWallClock="13:08:38"
+							time="00:10.058"
+							level="Info"
+							category="User"
+							errimg="images_BVT_Admi_9d00bb9b\BVT_Admi_b90c6565_rxlog.jpg"
+							errthumb="images_BVT_Admi_9d00bb9b\BVT_Admi_b90c6565_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="6"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="186"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.061"
+							timeRelativeToTestModuleStartTime="00:08.155"
+							timeWallClock="13:08:38"
+							time="00:10.061"
+							level="Info"
+							category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'AdminWebapp.Root.CREATEOTAJOB' at 106;15.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//button[@innertext='CREATE OTA JOB ']"
+								itempath=".//button[@innertext='CREATE OTA JOB ']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.Root.CREATEOTAJOB"
+								id="cc532a767f7045fda6a400ed7aa7c0c1"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="190"
+								itemindex="7"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.617"
+							timeRelativeToTestModuleStartTime="00:08.711"
+							timeWallClock="13:08:39"
+							time="00:10.617"
+							level="Info"
+							category="Delay">
+							<message>
+								(Optional Action)<br/>Waiting for 10s.
+							</message>
+							<metainfo
+								itemindex="8"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="196"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:20.671"
+							timeRelativeToTestModuleStartTime="00:18.765"
+							timeWallClock="13:08:49"
+							time="00:20.671"
+							level="Info"
+							category="Set value">
+							<message>
+								(Optional Action)<br/>Setting attribute TagValue to '$device_type' on item 'AdminWebapp.Root.DeviceType1'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//select[@id='formControlsSelect']"
+								itempath=".//select[@id='formControlsSelect']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.Root.DeviceType1"
+								id="cceefe26337945cd8a63acfcbddedd0c"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="201"
+								itemindex="9"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:20.815"
+							timeRelativeToTestModuleStartTime="00:18.909"
+							timeWallClock="13:08:49"
+							time="00:20.815"
+							level="Info"
+							category="Delay">
+							<message>
+								(Optional Action)<br/>Waiting for 10s.
+							</message>
+							<metainfo
+								itemindex="10"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="207"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:30.883"
+							timeRelativeToTestModuleStartTime="00:28.976"
+							timeWallClock="13:08:59"
+							time="00:30.883"
+							level="Info"
+							category="Keyboard">
+							<message>
+								(Optional Action)<br/>Key sequence from variable '$FW_ver' with focus on 'AdminWebapp.Root.select_fw'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//select[@name='newFirmVer']"
+								itempath=".//select[@name='newFirmVer']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.Root.select_fw"
+								id="2a0070e4c6244fafa04ac9463d7ae714"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="218"
+								itemindex="12"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:31.256"
+							timeRelativeToTestModuleStartTime="00:29.350"
+							timeWallClock="13:08:59"
+							time="00:31.256"
+							level="Info"
+							category="Delay">
+							<message>
+								(Optional Action)<br/>Waiting for 8s.
+							</message>
+							<metainfo
+								itemindex="13"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="224"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:39.350"
+							timeRelativeToTestModuleStartTime="00:37.443"
+							timeWallClock="13:09:07"
+							time="00:39.350"
+							level="Info"
+							category="Keyboard">
+							<message>
+								(Optional Action)<br/>Key sequence 'OTA' with focus on 'AdminWebapp.Root.EnterNote'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//textarea[@id='formControlsSelect']"
+								itempath=".//textarea[@id='formControlsSelect']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.Root.EnterNote"
+								id="44c795770f0b4effa0939c23a084e467"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="229"
+								itemindex="14"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:39.580"
+							timeRelativeToTestModuleStartTime="00:37.673"
+							timeWallClock="13:09:08"
+							time="00:39.580"
+							level="Info"
+							category="Delay">
+							<message>
+								(Optional Action)<br/>Waiting for 3s.
+							</message>
+							<metainfo
+								itemindex="15"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="235"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:42.619"
+							timeRelativeToTestModuleStartTime="00:40.713"
+							timeWallClock="13:09:11"
+							time="00:42.619"
+							level="Info"
+							category="Keyboard">
+							<message>
+								(Optional Action)<br/>Key sequence from variable '$device_id' with focus on 'AdminWebapp.Root.Search_device'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//tr/th[1]/div/div/div/input[@type='text' and @placeholder='Search by Device ID']"
+								itempath=".//tr/th[1]/div/div/div/input[@type='text' and @placeholder='Search by Device ID']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.Root.Search_device"
+								id="b6559e7bdfcb4c84bb26d1924a6ead2d"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="240"
+								itemindex="16"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:43.299"
+							timeRelativeToTestModuleStartTime="00:41.393"
+							timeWallClock="13:09:11"
+							time="00:43.299"
+							level="Info"
+							category="Delay">
+							<message>
+								(Optional Action)<br/>Waiting for 10s.
+							</message>
+							<metainfo
+								itemindex="17"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="246"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:53.362"
+							timeRelativeToTestModuleStartTime="00:51.456"
+							timeWallClock="13:09:21"
+							time="00:53.362"
+							level="Info"
+							category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'AdminWebapp.Root.Checkmarkk' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//tbody/tr/td[2]/label/span"
+								itempath=".//tbody/tr/td[2]/label/span"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.Root.Checkmarkk"
+								id="0539ce2d5e5f4f4cac32cbcafe92e14f"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="251"
+								itemindex="18"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:54.012"
+							timeRelativeToTestModuleStartTime="00:52.106"
+							timeWallClock="13:09:22"
+							time="00:54.012"
+							level="Info"
+							category="User"
+							errimg="images_BVT_Admi_9d00bb9b\BVT_Admi_b9096565_rxlog.jpg"
+							errthumb="images_BVT_Admi_9d00bb9b\BVT_Admi_b9096565_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="19"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="257"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:54.014"
+							timeRelativeToTestModuleStartTime="00:52.108"
+							timeWallClock="13:09:22"
+							time="00:54.014"
+							level="Info"
+							category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'AdminWebapp.Root.create_job' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//form/div/div/div/div/button/span"
+								itempath=".//form/div/div/div/div/button/span"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.Root.create_job"
+								id="f6d132a5eefa4b95a30a1ff1b6a1155c"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="261"
+								itemindex="20"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:54.539"
+							timeRelativeToTestModuleStartTime="00:52.633"
+							timeWallClock="13:09:23"
+							time="00:54.539"
+							level="Info"
+							category="Delay">
+							<message>
+								(Optional Action)<br/>Waiting for 5s.
+							</message>
+							<metainfo
+								itemindex="21"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="267"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:59.664"
+							timeRelativeToTestModuleStartTime="00:57.758"
+							timeWallClock="13:09:28"
+							time="00:59.664"
+							level="Info"
+							category="User"
+							errimg="images_BVT_Admi_9d00bb9b\BVT_Admi_b90a6565_rxlog.jpg"
+							errthumb="images_BVT_Admi_9d00bb9b\BVT_Admi_b90a6565_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="22"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="272"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:59.667"
+							timeRelativeToTestModuleStartTime="00:57.761"
+							timeWallClock="13:09:28"
+							time="00:59.667"
+							level="Info"
+							category="Get Value">
+							<message>
+								(Optional Action)<br/>Getting attribute 'InnerText' from item 'AdminWebapp.Root.SomeDivTag' and assigning its value to variable 'JOB_Id'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span/div/div/div"
+								itempath=".//span/div/div/div"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.Root.SomeDivTag"
+								id="159d047493984f619c5d726b8e2640c2"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="276"
+								itemindex="23"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:59.768"
+							timeRelativeToTestModuleStartTime="00:57.862"
+							timeWallClock="13:09:28"
+							time="00:59.768"
+							level="Info"
+							category="User">
+							<message>
+								JobId: AFR_OTA-1610523564408
+							</message>
+							<metainfo
+								itemindex="24"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="282"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:59.803"
+							timeRelativeToTestModuleStartTime="00:57.897"
+							timeWallClock="13:09:28"
+							time="00:59.803"
+							level="Info"
+							category="Get Value">
+							<message>
+								(Optional Action)<br/>Getting attribute 'InnerText' from item 'AdminWebapp.Root.SomeDivTag' and assigning the part of its value captured by ': (.*)' to variable 'New_OTA_JOB'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span/div/div/div"
+								itempath=".//span/div/div/div"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.Root.SomeDivTag"
+								id="159d047493984f619c5d726b8e2640c2"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="286"
+								itemindex="25"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:59.869"
+							timeRelativeToTestModuleStartTime="00:57.963"
+							timeWallClock="13:09:28"
+							time="00:59.869"
+							level="Info"
+							category="Delay">
+							<message>
+								(Optional Action)<br/>Waiting for 2s.
+							</message>
+							<metainfo
+								itemindex="26"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="292"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:02.021"
+							timeRelativeToTestModuleStartTime="01:00.114"
+							timeWallClock="13:09:30"
+							time="01:02.021"
+							level="Info"
+							category="User"
+							errimg="images_BVT_Admi_9d00bb9b\BVT_Admi_b90f6565_rxlog.jpg"
+							errthumb="images_BVT_Admi_9d00bb9b\BVT_Admi_b90f6565_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="27"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="297"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:02.026"
+							timeRelativeToTestModuleStartTime="01:00.120"
+							timeWallClock="13:09:30"
+							time="01:02.026"
+							level="Info"
+							category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'AdminWebapp.Root.NEW_OTA_JOB_ID' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='AFR_OTA-1610523564408']"
+								itempath=".//span[@innertext=$New_OTA_JOB]"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.Root.NEW_OTA_JOB_ID"
+								id="4da6f9a9e4014eeaa25e8159669d40aa"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="301"
+								itemindex="28"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:02.596"
+							timeRelativeToTestModuleStartTime="01:00.690"
+							timeWallClock="13:09:31"
+							time="01:02.596"
+							level="Info"
+							category="Delay">
+							<message>
+								(Optional Action)<br/>Waiting for 4s.
+							</message>
+							<metainfo
+								itemindex="29"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="307"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:06.835"
+							timeRelativeToTestModuleStartTime="01:04.929"
+							timeWallClock="13:09:35"
+							time="01:06.835"
+							level="Info"
+							category="User"
+							errimg="images_BVT_Admi_9d00bb9b\BVT_Admi_b9106565_rxlog.jpg"
+							errthumb="images_BVT_Admi_9d00bb9b\BVT_Admi_b9106565_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="30"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="312"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:06.838"
+							timeRelativeToTestModuleStartTime="01:04.932"
+							timeWallClock="13:09:35"
+							time="01:06.838"
+							level="Info"
+							category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'AdminWebapp.Root.Refresh' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Refresh']"
+								itempath=".//span[@innertext='Refresh']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.Root.Refresh"
+								id="18939eea671e4f6188b04145d771546d"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="316"
+								itemindex="31"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:07.346"
+							timeRelativeToTestModuleStartTime="01:05.440"
+							timeWallClock="13:09:35"
+							time="01:07.346"
+							level="Info"
+							category="Delay">
+							<message>
+								(Optional Action)<br/>Waiting for 5s.
+							</message>
+							<metainfo
+								itemindex="32"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="322"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:12.393"
+							timeRelativeToTestModuleStartTime="01:10.487"
+							timeWallClock="13:09:40"
+							time="01:12.393"
+							level="Info"
+							category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'AdminWebapp.Root.ExcelDownload' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Excel Download']"
+								itempath=".//span[@innertext='Excel Download']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.Root.ExcelDownload"
+								id="c47ad6bed22e407ba7a717ae259cd466"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="327"
+								itemindex="33"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:12.944"
+							timeRelativeToTestModuleStartTime="01:11.038"
+							timeWallClock="13:09:41"
+							time="01:12.944"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeContains (InnerText&gt;'Excel Downloaded Successf') on item 'AdminWebapp.Root.ExcelDownloadedSuccessfully'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//div[#'root']//div[@innertext>'Excel Downloaded Successf']"
+								itempath=".//div[#'root']//div[@innertext>'Excel Downloaded Successf']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.Root.ExcelDownloadedSuccessfully"
+								id="56df17952f284510948354724ba1c396"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="333"
+								itemindex="34"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:16.013"
+							timeRelativeToTestModuleStartTime="01:14.107"
+							timeWallClock="13:09:44"
+							time="01:16.013"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'BVT_Admin_WebappRepository.AdminWebapp.Root.ExcelDownloadedSuccessfully' does contain the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//div[#'root']//div[@innertext>'Excel Downloaded Successf']"
+								itempath=".//div[#'root']//div[@innertext>'Excel Downloaded Successf']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.Root.ExcelDownloadedSuccessfully"
+								id="56df17952f284510948354724ba1c396"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="334"
+								loglvl="Success"
+								itemindex="34">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:16.049"
+							timeRelativeToTestModuleStartTime="01:14.143"
+							timeWallClock="13:09:44"
+							time="01:16.049"
+							level="Info"
+							category="Delay">
+							<message>
+								(Optional Action)<br/>Waiting for 5s.
+							</message>
+							<metainfo
+								itemindex="35"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="339"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:21.192"
+							timeRelativeToTestModuleStartTime="01:19.286"
+							timeWallClock="13:09:49"
+							time="01:21.192"
+							level="Info"
+							category="User"
+							errimg="images_BVT_Admi_9d00bb9b\BVT_Admi_b90d6565_rxlog.jpg"
+							errthumb="images_BVT_Admi_9d00bb9b\BVT_Admi_b90d6565_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="36"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="344"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:21.195"
+							timeRelativeToTestModuleStartTime="01:19.289"
+							timeWallClock="13:09:49"
+							time="01:21.195"
+							level="Info"
+							category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'AdminWebapp.Root.Cancel' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Cancel']"
+								itempath=".//span[@innertext='Cancel']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.Root.Cancel"
+								id="65d9b6f081b5442884459e80b1e4686c"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="348"
+								itemindex="37"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:21.696"
+							timeRelativeToTestModuleStartTime="01:19.790"
+							timeWallClock="13:09:50"
+							time="01:21.696"
+							level="Info"
+							category="Delay">
+							<message>
+								(Optional Action)<br/>Waiting for 3s.
+							</message>
+							<metainfo
+								itemindex="38"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="354"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:24.765"
+							timeRelativeToTestModuleStartTime="01:22.859"
+							timeWallClock="13:09:53"
+							time="01:24.765"
+							level="Info"
+							category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'AdminWebapp.RadioCustomLabel' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//label"
+								itempath=".//label"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.RadioCustomLabel"
+								id="22bb65d4a52c43daad593d0d63d22cd8"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="359"
+								itemindex="39"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:25.258"
+							timeRelativeToTestModuleStartTime="01:23.352"
+							timeWallClock="13:09:53"
+							time="01:25.258"
+							level="Info"
+							category="Keyboard">
+							<message>
+								(Optional Action)<br/>Key sequence 'cancel' with focus on 'AdminWebapp.FormControlsSelect'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//textarea[#'formControlsSelect']"
+								itempath=".//textarea[#'formControlsSelect']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.FormControlsSelect"
+								id="2d64dc3043ff4564b04af66253bf69bc"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="365"
+								itemindex="40"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:25.532"
+							timeRelativeToTestModuleStartTime="01:23.626"
+							timeWallClock="13:09:54"
+							time="01:25.532"
+							level="Info"
+							category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'AdminWebapp.Confirm' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//button[@innertext='Confirm']"
+								itempath=".//button[@innertext='Confirm']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.Confirm"
+								id="b403f7e3a5a144758ece0337f58c0f72"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="371"
+								itemindex="41"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:26.044"
+							timeRelativeToTestModuleStartTime="01:24.137"
+							timeWallClock="13:09:54"
+							time="01:26.044"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeEqual (InnerText='Cancelled Job') on item 'AdminWebapp.CancelledJob'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//div[@innertext='Cancelled Job']"
+								itempath=".//div[#'root']//div[@innertext='Cancelled Job']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.CancelledJob"
+								id="9c13773f3e8e4f8c8b34389d2b45a0c0"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="377"
+								itemindex="42"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:28.006"
+							timeRelativeToTestModuleStartTime="01:26.100"
+							timeWallClock="13:09:56"
+							time="01:28.006"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'BVT_Admin_WebappRepository.AdminWebapp.CancelledJob' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//div[@innertext='Cancelled Job']"
+								itempath=".//div[#'root']//div[@innertext='Cancelled Job']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.CancelledJob"
+								id="9c13773f3e8e4f8c8b34389d2b45a0c0"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="378"
+								loglvl="Success"
+								itemindex="42">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:28.033"
+							timeRelativeToTestModuleStartTime="01:26.127"
+							timeWallClock="13:09:56"
+							time="01:28.033"
+							level="Info"
+							category="Delay">
+							<message>
+								(Optional Action)<br/>Waiting for 2s.
+							</message>
+							<metainfo
+								itemindex="43"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="383"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:30.246"
+							timeRelativeToTestModuleStartTime="01:28.340"
+							timeWallClock="13:09:58"
+							time="01:30.246"
+							level="Info"
+							category="User"
+							errimg="images_BVT_Admi_9d00bb9b\BVT_Admi_b90e6565_rxlog.jpg"
+							errthumb="images_BVT_Admi_9d00bb9b\BVT_Admi_b90e6565_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="44"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="388"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:30.249"
+							timeRelativeToTestModuleStartTime="01:28.342"
+							timeWallClock="13:09:58"
+							time="01:30.249"
+							level="Info"
+							category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'AdminWebapp.Root.NEW_OTA_JOB_ID' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='AFR_OTA-1610523564408']"
+								itempath=".//span[@innertext=$New_OTA_JOB]"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.Root.NEW_OTA_JOB_ID"
+								id="4da6f9a9e4014eeaa25e8159669d40aa"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="392"
+								itemindex="45"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:30.804"
+							timeRelativeToTestModuleStartTime="01:28.898"
+							timeWallClock="13:09:59"
+							time="01:30.804"
+							level="Info"
+							category="Delay">
+							<message>
+								(Optional Action)<br/>Waiting for 4s.
+							</message>
+							<metainfo
+								itemindex="46"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="398"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:34.954"
+							timeRelativeToTestModuleStartTime="01:33.048"
+							timeWallClock="13:10:03"
+							time="01:34.954"
+							level="Info"
+							category="User"
+							errimg="images_BVT_Admi_9d00bb9b\BVT_Admi_b9036565_rxlog.jpg"
+							errthumb="images_BVT_Admi_9d00bb9b\BVT_Admi_b9036565_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="47"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="403"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:34.956"
+							timeRelativeToTestModuleStartTime="01:33.050"
+							timeWallClock="13:10:03"
+							time="01:34.956"
+							level="Info"
+							category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'AdminWebapp.Root.ExcelDownload' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Excel Download']"
+								itempath=".//span[@innertext='Excel Download']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.Root.ExcelDownload"
+								id="c47ad6bed22e407ba7a717ae259cd466"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="407"
+								itemindex="48"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:35.479"
+							timeRelativeToTestModuleStartTime="01:33.573"
+							timeWallClock="13:10:03"
+							time="01:35.479"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeContains (InnerText&gt;'Excel Downloaded Successf') on item 'AdminWebapp.Root.ExcelDownloadedSuccessfully'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//div[#'root']//div[@innertext>'Excel Downloaded Successf']"
+								itempath=".//div[#'root']//div[@innertext>'Excel Downloaded Successf']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.Root.ExcelDownloadedSuccessfully"
+								id="56df17952f284510948354724ba1c396"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="413"
+								itemindex="49"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:37.352"
+							timeRelativeToTestModuleStartTime="01:35.446"
+							timeWallClock="13:10:05"
+							time="01:37.352"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'BVT_Admin_WebappRepository.AdminWebapp.Root.ExcelDownloadedSuccessfully' does contain the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//div[#'root']//div[@innertext>'Excel Downloaded Successf']"
+								itempath=".//div[#'root']//div[@innertext>'Excel Downloaded Successf']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.Root.ExcelDownloadedSuccessfully"
+								id="56df17952f284510948354724ba1c396"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="414"
+								loglvl="Success"
+								itemindex="49">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:37.386"
+							timeRelativeToTestModuleStartTime="01:35.479"
+							timeWallClock="13:10:05"
+							time="01:37.386"
+							level="Info"
+							category="Delay">
+							<message>
+								(Optional Action)<br/>Waiting for 2s.
+							</message>
+							<metainfo
+								itemindex="50"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="419"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:39.507"
+							timeRelativeToTestModuleStartTime="01:37.601"
+							timeWallClock="13:10:08"
+							time="01:39.507"
+							level="Info"
+							category="User"
+							errimg="images_BVT_Admi_9d00bb9b\BVT_Admi_b9046565_rxlog.jpg"
+							errthumb="images_BVT_Admi_9d00bb9b\BVT_Admi_b9046565_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="51"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="424"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:39.512"
+							timeRelativeToTestModuleStartTime="01:37.606"
+							timeWallClock="13:10:08"
+							time="01:39.512"
+							level="Info"
+							category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'AdminWebapp.Root.Archive' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Archive']"
+								itempath=".//span[@innertext='Archive']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.Root.Archive"
+								id="d9fdc100d1be4414a35ef3434cfbce50"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="428"
+								itemindex="52"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:40.029"
+							timeRelativeToTestModuleStartTime="01:38.123"
+							timeWallClock="13:10:08"
+							time="01:40.029"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeContains (InnerText&gt;'OTA Archive Successfully') on item 'AdminWebapp.OTAArchiveSuccessfully'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//div[@innertext='OTA Archive Successfully']"
+								itempath=".//div[#'root']//div[@innertext='OTA Archive Successfully']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.OTAArchiveSuccessfully"
+								id="63ef3a32ab394b02b01d7ac9999c00dc"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="434"
+								itemindex="53"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:41.643"
+							timeRelativeToTestModuleStartTime="01:39.736"
+							timeWallClock="13:10:10"
+							time="01:41.643"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'BVT_Admin_WebappRepository.AdminWebapp.OTAArchiveSuccessfully' does contain the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//div[@innertext='OTA Archive Successfully']"
+								itempath=".//div[#'root']//div[@innertext='OTA Archive Successfully']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.OTAArchiveSuccessfully"
+								id="63ef3a32ab394b02b01d7ac9999c00dc"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="435"
+								loglvl="Success"
+								itemindex="53">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:41.704"
+							timeRelativeToTestModuleStartTime="01:39.798"
+							timeWallClock="13:10:10"
+							time="01:41.704"
+							level="Info"
+							category="Delay">
+							<message>
+								(Optional Action)<br/>Waiting for 4s.
+							</message>
+							<metainfo
+								itemindex="54"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="440"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:45.758"
+							timeRelativeToTestModuleStartTime="01:43.852"
+							timeWallClock="13:10:14"
+							time="01:45.758"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeEqual (TagName='div') on item 'AdminWebapp1.Root.JobBox'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']/div/div[2]/div[2]/div/div[2]/div[2]/div[1]/div[1]/div/div/div/div[2]"
+								itempath="div/div[2]/div[2]/div/div[2]/div[2]/div[1]/div[1]/div/div/div/div[2]"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.JobBox"
+								id="3074c51d9c83476e95b4fb6a29dc25c9"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="445"
+								itemindex="55"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:45.884"
+							timeRelativeToTestModuleStartTime="01:43.978"
+							timeWallClock="13:10:14"
+							time="01:45.884"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'TagName' of element for item 'BVT_Admin_WebappRepository.AdminWebapp1.Root.JobBox' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']/div/div[2]/div[2]/div/div[2]/div[2]/div[1]/div[1]/div/div/div/div[2]"
+								itempath="div/div[2]/div[2]/div/div[2]/div[2]/div[1]/div[1]/div/div/div/div[2]"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.JobBox"
+								id="3074c51d9c83476e95b4fb6a29dc25c9"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="446"
+								loglvl="Success"
+								itemindex="55">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:45.917"
+							timeRelativeToTestModuleStartTime="01:44.011"
+							timeWallClock="13:10:14"
+							time="01:45.917"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeEqual (TagName='span') on item 'AdminWebapp1.Root.DynamicGroups'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Dynamic Groups']"
+								itempath=".//span[@innertext='Dynamic Groups']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.DynamicGroups"
+								id="dd5264668c5e40c88c8a17382eee6ded"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="451"
+								itemindex="56"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:46.006"
+							timeRelativeToTestModuleStartTime="01:44.099"
+							timeWallClock="13:10:14"
+							time="01:46.006"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'TagName' of element for item 'BVT_Admin_WebappRepository.AdminWebapp1.Root.DynamicGroups' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Dynamic Groups']"
+								itempath=".//span[@innertext='Dynamic Groups']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.DynamicGroups"
+								id="dd5264668c5e40c88c8a17382eee6ded"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="452"
+								loglvl="Success"
+								itemindex="56">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:46.032"
+							timeRelativeToTestModuleStartTime="01:44.125"
+							timeWallClock="13:10:14"
+							time="01:46.032"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeEqual (TagName='span') on item 'AdminWebapp1.Root.OTAJob'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='OTA Job']"
+								itempath=".//span[@innertext='OTA Job']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.OTAJob"
+								id="e9f148a768d942089ed3a324cabf53a1"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="457"
+								itemindex="57"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:46.097"
+							timeRelativeToTestModuleStartTime="01:44.191"
+							timeWallClock="13:10:14"
+							time="01:46.097"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'TagName' of element for item 'BVT_Admin_WebappRepository.AdminWebapp1.Root.OTAJob' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='OTA Job']"
+								itempath=".//span[@innertext='OTA Job']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.OTAJob"
+								id="e9f148a768d942089ed3a324cabf53a1"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="458"
+								loglvl="Success"
+								itemindex="57">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:46.132"
+							timeRelativeToTestModuleStartTime="01:44.226"
+							timeWallClock="13:10:14"
+							time="01:46.132"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeEqual (TagName='span') on item 'AdminWebapp1.Root.ActiveOTAJobs1'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Active OTA Jobs']"
+								itempath=".//span[@innertext='Active OTA Jobs']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.ActiveOTAJobs1"
+								id="9042fa84e27c4bc692417867858e4239"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="463"
+								itemindex="58"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:46.199"
+							timeRelativeToTestModuleStartTime="01:44.293"
+							timeWallClock="13:10:14"
+							time="01:46.199"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'TagName' of element for item 'BVT_Admin_WebappRepository.AdminWebapp1.Root.ActiveOTAJobs1' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Active OTA Jobs']"
+								itempath=".//span[@innertext='Active OTA Jobs']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.ActiveOTAJobs1"
+								id="9042fa84e27c4bc692417867858e4239"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="464"
+								loglvl="Success"
+								itemindex="58">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:46.248"
+							timeRelativeToTestModuleStartTime="01:44.342"
+							timeWallClock="13:10:14"
+							time="01:46.248"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeEqual (TagName='button') on item 'AdminWebapp1.Root.BtnBtnDefault2'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']/div/div[2]/div[2]/div/div[1]/div[1]/button"
+								itempath="div/div[2]/div[2]/div/div[1]/div[1]/button"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.BtnBtnDefault2"
+								id="a2f4807aa239408384520dd7949cd15a"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="469"
+								itemindex="59"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:46.332"
+							timeRelativeToTestModuleStartTime="01:44.426"
+							timeWallClock="13:10:14"
+							time="01:46.332"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'TagName' of element for item 'BVT_Admin_WebappRepository.AdminWebapp1.Root.BtnBtnDefault2' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']/div/div[2]/div[2]/div/div[1]/div[1]/button"
+								itempath="div/div[2]/div[2]/div/div[1]/div[1]/button"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.BtnBtnDefault2"
+								id="a2f4807aa239408384520dd7949cd15a"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="470"
+								loglvl="Success"
+								itemindex="59">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:46.365"
+							timeRelativeToTestModuleStartTime="01:44.459"
+							timeWallClock="13:10:14"
+							time="01:46.365"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeEqual (TagName='button') on item 'AdminWebapp1.Root.BtnBtnDefault3'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']/div/div[2]/div[2]/div/div[1]/div[2]/button"
+								itempath="div/div[2]/div[2]/div/div[1]/div[2]/button"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.BtnBtnDefault3"
+								id="88617491ff89418d99f9f56bfbf5ab30"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="475"
+								itemindex="60"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:46.430"
+							timeRelativeToTestModuleStartTime="01:44.524"
+							timeWallClock="13:10:14"
+							time="01:46.430"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'TagName' of element for item 'BVT_Admin_WebappRepository.AdminWebapp1.Root.BtnBtnDefault3' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']/div/div[2]/div[2]/div/div[1]/div[2]/button"
+								itempath="div/div[2]/div[2]/div/div[1]/div[2]/button"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.BtnBtnDefault3"
+								id="88617491ff89418d99f9f56bfbf5ab30"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="476"
+								loglvl="Success"
+								itemindex="60">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:46.543"
+							timeRelativeToTestModuleStartTime="01:44.637"
+							timeWallClock="13:10:15"
+							time="01:46.543"
+							level="Info"
+							category="User"
+							errimg="images_BVT_Admi_9d00bb9b\BVT_Admi_e7065585_rxlog.jpg"
+							errthumb="images_BVT_Admi_9d00bb9b\BVT_Admi_e7065585_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="61"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="481"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:46.549"
+							timeRelativeToTestModuleStartTime="01:44.643"
+							timeWallClock="13:10:15"
+							time="01:46.549"
+							level="Info"
+							category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'AdminWebapp.Root.BtnBtnDefault' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']/div/div[2]/div[2]/div/div[1]/div[2]/button"
+								itempath="div/div[2]/div[2]/div/div[1]/div[2]/button"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp.Root.BtnBtnDefault"
+								id="981cfd1434d0482fa556c0c44e706c33"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="485"
+								itemindex="62"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:47.083"
+							timeRelativeToTestModuleStartTime="01:45.177"
+							timeWallClock="13:10:15"
+							time="01:47.083"
+							level="Info"
+							category="Delay">
+							<message>
+								(Optional Action)<br/>Waiting for 5s.
+							</message>
+							<metainfo
+								itemindex="63"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="491"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:52.229"
+							timeRelativeToTestModuleStartTime="01:50.322"
+							timeWallClock="13:10:20"
+							time="01:52.229"
+							level="Info"
+							category="User"
+							errimg="images_BVT_Admi_9d00bb9b\BVT_Admi_89adca20_rxlog.jpg"
+							errthumb="images_BVT_Admi_9d00bb9b\BVT_Admi_89adca20_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="64"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="496"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:52.231"
+							timeRelativeToTestModuleStartTime="01:50.325"
+							timeWallClock="13:10:20"
+							time="01:52.231"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'AdminWebapp2.BtnBtnDefault' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']/div/div[2]/div[2]/div/div[1]/div[3]/button"
+								itempath=".//div[#'root']/div/div[2]/div[2]/div/div[1]/div[3]/button"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp2.BtnBtnDefault"
+								id="c5c27b3305dd4f38b716b66aaefc371d"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="499"
+								itemindex="65"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:52.721"
+							timeRelativeToTestModuleStartTime="01:50.815"
+							timeWallClock="13:10:21"
+							time="01:52.721"
+							level="Info"
+							category="Delay">
+							<message>
+								(Optional Action)<br/>Waiting for 2s.
+							</message>
+							<metainfo
+								itemindex="66"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="504"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:54.871"
+							timeRelativeToTestModuleStartTime="01:52.964"
+							timeWallClock="13:10:23"
+							time="01:54.871"
+							level="Info"
+							category="User"
+							errimg="images_BVT_Admi_9d00bb9b\BVT_Admi_2c553ebb_rxlog.jpg"
+							errthumb="images_BVT_Admi_9d00bb9b\BVT_Admi_2c553ebb_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="67"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="509"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:54.874"
+							timeRelativeToTestModuleStartTime="01:52.967"
+							timeWallClock="13:10:23"
+							time="01:54.874"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeEqual (TagName='input') on item 'AdminWebapp1.Root.Text'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//input[@type='text']"
+								itempath=".//input[@type='text']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.Text"
+								id="084703410daa445bad400e320f42c0c6"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="513"
+								itemindex="68"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:54.945"
+							timeRelativeToTestModuleStartTime="01:53.039"
+							timeWallClock="13:10:23"
+							time="01:54.945"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'TagName' of element for item 'BVT_Admin_WebappRepository.AdminWebapp1.Root.Text' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//input[@type='text']"
+								itempath=".//input[@type='text']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.Text"
+								id="084703410daa445bad400e320f42c0c6"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="514"
+								loglvl="Success"
+								itemindex="68">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:54.987"
+							timeRelativeToTestModuleStartTime="01:53.081"
+							timeWallClock="13:10:23"
+							time="01:54.987"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeEqual (TagName='select') on item 'AdminWebapp1.Root.PType'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//select[@name='pType']"
+								itempath=".//select[@name='pType']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.PType"
+								id="ea003acb2949456991819c69d239485a"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="519"
+								itemindex="69"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:55.061"
+							timeRelativeToTestModuleStartTime="01:53.155"
+							timeWallClock="13:10:23"
+							time="01:55.061"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'TagName' of element for item 'BVT_Admin_WebappRepository.AdminWebapp1.Root.PType' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//select[@name='pType']"
+								itempath=".//select[@name='pType']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.PType"
+								id="ea003acb2949456991819c69d239485a"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="520"
+								loglvl="Success"
+								itemindex="69">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:55.109"
+							timeRelativeToTestModuleStartTime="01:53.203"
+							timeWallClock="13:10:23"
+							time="01:55.109"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeEqual (TagName='input') on item 'AdminWebapp1.Root.Text1'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//tr/th[5]/div/div/div/input[@type='text']"
+								itempath=".//tr/th[5]/div/div/div/input[@type='text']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.Text1"
+								id="da9b6af19a8046d0b2cdb8b1497c7fab"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="525"
+								itemindex="70"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:55.196"
+							timeRelativeToTestModuleStartTime="01:53.290"
+							timeWallClock="13:10:23"
+							time="01:55.196"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'TagName' of element for item 'BVT_Admin_WebappRepository.AdminWebapp1.Root.Text1' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//tr/th[5]/div/div/div/input[@type='text']"
+								itempath=".//tr/th[5]/div/div/div/input[@type='text']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.Text1"
+								id="da9b6af19a8046d0b2cdb8b1497c7fab"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="526"
+								loglvl="Success"
+								itemindex="70">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:55.229"
+							timeRelativeToTestModuleStartTime="01:53.323"
+							timeWallClock="13:10:23"
+							time="01:55.229"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeEqual (TagName='img') on item 'AdminWebapp1.Root.Notes'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//img[@alt='notes']"
+								itempath=".//img[@alt='notes']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.Notes"
+								id="9741fdcaa4514d8d9718c9558a7225e9"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="531"
+								itemindex="71"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:55.295"
+							timeRelativeToTestModuleStartTime="01:53.388"
+							timeWallClock="13:10:23"
+							time="01:55.295"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'TagName' of element for item 'BVT_Admin_WebappRepository.AdminWebapp1.Root.Notes' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//img[@alt='notes']"
+								itempath=".//img[@alt='notes']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.Notes"
+								id="9741fdcaa4514d8d9718c9558a7225e9"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="532"
+								loglvl="Success"
+								itemindex="71">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:55.355"
+							timeRelativeToTestModuleStartTime="01:53.449"
+							timeWallClock="13:10:23"
+							time="01:55.355"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeEqual (TagName='span') on item 'AdminWebapp1.Root.Logic'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Logic']"
+								itempath=".//span[@innertext='Logic']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.Logic"
+								id="216a92b041634287afa1554c40428351"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="537"
+								itemindex="72"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:55.453"
+							timeRelativeToTestModuleStartTime="01:53.547"
+							timeWallClock="13:10:23"
+							time="01:55.453"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'TagName' of element for item 'BVT_Admin_WebappRepository.AdminWebapp1.Root.Logic' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Logic']"
+								itempath=".//span[@innertext='Logic']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.Logic"
+								id="216a92b041634287afa1554c40428351"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="538"
+								loglvl="Success"
+								itemindex="72">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:55.479"
+							timeRelativeToTestModuleStartTime="01:53.573"
+							timeWallClock="13:10:23"
+							time="01:55.479"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeEqual (TagName='span') on item 'AdminWebapp1.Root.Note'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Note']"
+								itempath=".//span[@innertext='Note']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.Note"
+								id="7a89f3614ef14ab08420758728f758d1"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="543"
+								itemindex="73"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:55.542"
+							timeRelativeToTestModuleStartTime="01:53.636"
+							timeWallClock="13:10:24"
+							time="01:55.542"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'TagName' of element for item 'BVT_Admin_WebappRepository.AdminWebapp1.Root.Note' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Note']"
+								itempath=".//span[@innertext='Note']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.Note"
+								id="7a89f3614ef14ab08420758728f758d1"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="544"
+								loglvl="Success"
+								itemindex="73">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:55.579"
+							timeRelativeToTestModuleStartTime="01:53.673"
+							timeWallClock="13:10:24"
+							time="01:55.579"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeEqual (TagName='span') on item 'AdminWebapp1.Root.CreatedBy'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Created By']"
+								itempath=".//span[@innertext='Created By']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.CreatedBy"
+								id="f8d0edc0fd7940ffb609670daa851f8c"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="549"
+								itemindex="74"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:55.643"
+							timeRelativeToTestModuleStartTime="01:53.737"
+							timeWallClock="13:10:24"
+							time="01:55.643"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'TagName' of element for item 'BVT_Admin_WebappRepository.AdminWebapp1.Root.CreatedBy' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Created By']"
+								itempath=".//span[@innertext='Created By']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.CreatedBy"
+								id="f8d0edc0fd7940ffb609670daa851f8c"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="550"
+								loglvl="Success"
+								itemindex="74">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:55.680"
+							timeRelativeToTestModuleStartTime="01:53.774"
+							timeWallClock="13:10:24"
+							time="01:55.680"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeEqual (TagName='span') on item 'AdminWebapp1.Root.CreatedDate'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Created Date']"
+								itempath=".//span[@innertext='Created Date']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.CreatedDate"
+								id="8ed23d035fb04814a667f8861aba0cfa"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="555"
+								itemindex="75"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:55.746"
+							timeRelativeToTestModuleStartTime="01:53.840"
+							timeWallClock="13:10:24"
+							time="01:55.746"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'TagName' of element for item 'BVT_Admin_WebappRepository.AdminWebapp1.Root.CreatedDate' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Created Date']"
+								itempath=".//span[@innertext='Created Date']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.CreatedDate"
+								id="8ed23d035fb04814a667f8861aba0cfa"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="556"
+								loglvl="Success"
+								itemindex="75">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:55.781"
+							timeRelativeToTestModuleStartTime="01:53.874"
+							timeWallClock="13:10:24"
+							time="01:55.781"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeEqual (TagName='span') on item 'AdminWebapp1.Root.TotalDevices'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Total Devices']"
+								itempath=".//span[@innertext='Total Devices']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.TotalDevices"
+								id="b9953b0246184e318a11467d2b672f1a"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="561"
+								itemindex="76"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:55.863"
+							timeRelativeToTestModuleStartTime="01:53.957"
+							timeWallClock="13:10:24"
+							time="01:55.863"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'TagName' of element for item 'BVT_Admin_WebappRepository.AdminWebapp1.Root.TotalDevices' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Total Devices']"
+								itempath=".//span[@innertext='Total Devices']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.TotalDevices"
+								id="b9953b0246184e318a11467d2b672f1a"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="562"
+								loglvl="Success"
+								itemindex="76">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:55.895"
+							timeRelativeToTestModuleStartTime="01:53.989"
+							timeWallClock="13:10:24"
+							time="01:55.895"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'AdminWebapp2.CREATEDYNAMICGROUP' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//button[@innertext='CREATE DYNAMIC GROUP ']"
+								itempath=".//div[#'root']//button[@innertext='CREATE DYNAMIC GROUP ']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp2.CREATEDYNAMICGROUP"
+								id="85332444088b44038df9bbae87f78f42"
+								timeout="60000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="566"
+								itemindex="77"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:56.396"
+							timeRelativeToTestModuleStartTime="01:54.489"
+							timeWallClock="13:10:24"
+							time="01:56.396"
+							level="Info"
+							category="Delay">
+							<message>
+								(Optional Action)<br/>Waiting for 3s.
+							</message>
+							<metainfo
+								itemindex="78"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="571"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:59.441"
+							timeRelativeToTestModuleStartTime="01:57.535"
+							timeWallClock="13:10:27"
+							time="01:59.441"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeEqual (TagName='span') on item 'AdminWebapp1.Root.DynamicGroup'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Dynamic Group']"
+								itempath=".//span[@innertext='Dynamic Group']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.DynamicGroup"
+								id="a39a74ba97b445e4b2eb497ff1b0ee68"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="576"
+								itemindex="79"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:59.500"
+							timeRelativeToTestModuleStartTime="01:57.593"
+							timeWallClock="13:10:28"
+							time="01:59.500"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'TagName' of element for item 'BVT_Admin_WebappRepository.AdminWebapp1.Root.DynamicGroup' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Dynamic Group']"
+								itempath=".//span[@innertext='Dynamic Group']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.DynamicGroup"
+								id="a39a74ba97b445e4b2eb497ff1b0ee68"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="577"
+								loglvl="Success"
+								itemindex="79">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:59.532"
+							timeRelativeToTestModuleStartTime="01:57.625"
+							timeWallClock="13:10:28"
+							time="01:59.532"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeEqual (TagName='span') on item 'AdminWebapp1.Root.CreateDynamicGroup1'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Create Dynamic Group']"
+								itempath=".//span[@innertext='Create Dynamic Group']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.CreateDynamicGroup1"
+								id="72ae813c8f2b4b36934204601db544d5"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="582"
+								itemindex="80"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:59.627"
+							timeRelativeToTestModuleStartTime="01:57.721"
+							timeWallClock="13:10:28"
+							time="01:59.627"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'TagName' of element for item 'BVT_Admin_WebappRepository.AdminWebapp1.Root.CreateDynamicGroup1' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//span[@innertext='Create Dynamic Group']"
+								itempath=".//span[@innertext='Create Dynamic Group']"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.CreateDynamicGroup1"
+								id="72ae813c8f2b4b36934204601db544d5"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="583"
+								loglvl="Success"
+								itemindex="80">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:59.717"
+							timeRelativeToTestModuleStartTime="01:57.811"
+							timeWallClock="13:10:28"
+							time="01:59.717"
+							level="Info"
+							category="User"
+							errimg="images_BVT_Admi_9d00bb9b\BVT_Admi_cefcb356_rxlog.jpg"
+							errthumb="images_BVT_Admi_9d00bb9b\BVT_Admi_cefcb356_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="81"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="588"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:59.720"
+							timeRelativeToTestModuleStartTime="01:57.814"
+							timeWallClock="13:10:28"
+							time="01:59.720"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeEqual (TagName='div') on item 'AdminWebapp1.Root.PanelBody3'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//form/div/div"
+								itempath=".//form/div/div"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.PanelBody3"
+								id="6975190522f0457499ced2691fb90caf"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="592"
+								itemindex="82"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:59.811"
+							timeRelativeToTestModuleStartTime="01:57.905"
+							timeWallClock="13:10:28"
+							time="01:59.811"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'TagName' of element for item 'BVT_Admin_WebappRepository.AdminWebapp1.Root.PanelBody3' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.mywater.cloud']//div[#'root']//form/div/div"
+								itempath=".//form/div/div"
+								fullname="BVT_Admin_WebappRepository.AdminWebapp1.Root.PanelBody3"
+								id="6975190522f0457499ced2691fb90caf"
+								timeout="90000"
+								codefile="c:\Users\E1238622\Documents\Ranorex\RanorexStudio Projects\BVT_Admin_Webapp\BVT_Admin_Wenapp\OTA_single_device.cs"
+								codeline="593"
+								loglvl="Success"
+								itemindex="82">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

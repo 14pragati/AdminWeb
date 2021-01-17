@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.1m"
+		durationms="64553"
+		type="root"
+		rid="a000ba745786010"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="E1238622"
+		rxversion="9.3.4.0"
+		host="INNOIL0106"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="1/8/2021 1:05:29 PM"
+		timestampiso="2021-01-08T07:35:29"
+		endtime="1/8/2021 1:06:34 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="download_alerts">
+		<detail>
+			download_alerts
+		</detail>
+		<errormessage>
+			Failed to find item 'BVT_Admin_WebappRepository.AdminWebapp.Alerts'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.205"
+			timeRelativeToTestModuleStartTime="00:04.205"
+			timeWallClock="13:05:34"
+			time="00:04.205"
+			level="Warn"
+			category="Data"
+			errimg="images_download_d708b354\download_d708b354_529e18b1_trace.jpg"
+			errthumb="images_download_d708b354\download_d708b354_529e18b1_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>url
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.225"
+			timeRelativeToTestModuleStartTime="00:04.225"
+			timeWallClock="13:05:34"
+			time="00:04.225"
+			level="Info"
+			category="Mouse"
+			errimg="images_download_d708b354\download_d708b354_529e18b1_trace.jpg"
+			errthumb="images_download_d708b354\download_d708b354_529e18b1_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'AdminWebapp.Alerts' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='']//div[#'menu']//li[@title='Alerts']"
+				itempath=".//div[#'menu']//li[@title='Alerts']"
+				fullname="BVT_Admin_WebappRepository.AdminWebapp.Alerts"
+				id="198cb68f937b42a8863f572bf97f5961"
+				timeout="60000"
+				codefile="c:\Users\E1238622\Documents\Ranorex\BVT_Admin_Webapp\BVT_Admin_Wenapp\download_alerts.cs"
+				codeline="92"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:04.393"
+			timeRelativeToTestModuleStartTime="01:04.393"
+			timeWallClock="13:06:34"
+			time="01:04.393"
+			level="Error"
+			category="Module"
+			errimg="images_download_d708b354\download_d708b354_72e27cb7_trace.jpg"
+			errthumb="images_download_d708b354\download_d708b354_72e27cb7_trace_thumb.jpg">
+			<message>
+				Failed to find item 'BVT_Admin_WebappRepository.AdminWebapp.Alerts'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/dom[@domain='']//div[#'menu']//li[@title='Alerts']' at step 'dom[@domain='']' after 547 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at BVT_Admin_Wenapp.BVT_Admin_WebappRepositoryFolders.AdminWebappAppFolder.get_Alerts() in c:\Users\E1238622\Documents\Ranorex\BVT_Admin_Webapp\BVT_Admin_Wenapp\BVT_Admin_WebappRepository.cs:line 959&#13;&#10;   at BVT_Admin_Wenapp.download_alerts.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\E1238622\Documents\Ranorex\BVT_Admin_Webapp\BVT_Admin_Wenapp\download_alerts.cs:line 93&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\E1238622\Documents\Ranorex\BVT_Admin_Webapp\BVT_Admin_Wenapp\download_alerts.cs"
+				codeline="93"
+				type="repoitem"
+				path="/dom[@domain='']//div[#'menu']//li[@title='Alerts']"
+				itempath=".//div[#'menu']//li[@title='Alerts']"
+				fullname="BVT_Admin_WebappRepository.AdminWebapp.Alerts"
+				id="198cb68f937b42a8863f572bf97f5961"
+				timeout="60000"
+				failedStep="dom[@domain=$url]"
+				bestPathPrefix=""
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

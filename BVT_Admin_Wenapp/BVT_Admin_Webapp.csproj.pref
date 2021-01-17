@@ -1,0 +1,20 @@
+﻿<Properties>
+  <Array name="active" />
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="BVT_Admin_Webapp.rxtst" />
+    <Element value="OTA_single_device.rxrec" />
+    <Element value="devices.rxrec" />
+    <Element value="manage_certificates.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="BVT_Admin_Wenapp.To_verify_admin_web_dashboard_items.Validate_PentekDefender(RepoItemInfo spantagInfo)" />
+      <Element value="BVT_Admin_Wenapp.To_verify_admin_web_dashboard_items.Validate_SumpPumpController(RepoItemInfo spantagInfo)" />
+      <Element value="BVT_Admin_Wenapp.To_verify_admin_web_dashboard_items.Validate_PentekDefender(RepoItemInfo spantagInfo)" />
+    </Array>
+  </Properties>
+</Properties>
